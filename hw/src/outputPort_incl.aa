@@ -1,0 +1,45 @@
+$module [ ##OUTPUTPORTDAEMON ] $in () $out () $is
+{
+    $branchblock[loop] {
+        $dopipeline $depth OUTPUT_PORT_PIPELINE_DEPTH $fullrate
+
+            $merge $entry $loopback
+                $phi down_counter := ZERO_8 $on $entry next_down_counter $on $loopback
+                $phi pkt_1_e_word := ZERO_33 $on $entry 
+                    $guard (read_from_1) ##NOBLOCKOBUF_FROM_1 $on $loopback
+                $phi pkt_2_e_word := ZERO_33 $on $entry 
+                    $guard (read_from_2) ##NOBLOCKOBUF_FROM_2 $on $loopback
+                $phi pkt_3_e_word := ZERO_33 $on $entry 
+                    $guard (read_from_3) ##NOBLOCKOBUF_FROM_3 $on $loopback
+                $phi pkt_4_e_word := ZERO_33 $on $entry 
+                    $guard (read_from_4) ##NOBLOCKOBUF_FROM_4 $on $loopback
+
+                // change here
+                $phi active_packet := ZERO_2 $on $entry next_active_packet $on $loopback
+                $phi pkt_1_has_priority := ZERO_1 $on $entry next_pkt_1_has_priority $on $loopback
+            $endmerge
+
+            $volatile p1_valid := (pkt_1_e_word [] 32)
+			$volatile p2_valid := (pkt_2_e_word [] 32)
+			$volatile p3_valid := (pkt_3_e_word [] 32)
+			$volatile p4_valid := (pkt_4_e_word [] 32)
+
+            $rreport ( ##OUTPUTPORTDAEMON state_summary 
+                        read_from_1 pkt_1_e_word 
+                        read_from_2 pkt_2_e_word
+                        read_from_3 pkt_3_e_word
+                        read_from_4 pkt_4_e_word
+                    )
+
+            $volatile valid_active_pkt_word_read := ($excmux 
+					(active_packet == 1) p1_valid
+					(active_packet == 2) p2_valid
+                    (active_packet == 3) p3_valid
+                    (active_packet == 4) p4_valid
+                    )
+
+            
+
+        $while 1
+    }
+}

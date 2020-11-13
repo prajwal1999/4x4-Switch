@@ -1,0 +1,3 @@
+$volatile $module [prioritySelect]
+    $in (down_counter: $uint<8> active_packet: $uint<2>
+			pkt_1_has_priority p1_valid p2_valid: $uint<1>)

@@ -1,0 +1,34 @@
+$module [ ##INPUTPORTDAEMON ] $in () $out () $is
+{
+    $branchblock[loop] {
+        $dopipeline $depth INPUT_PORT_PIPELINE_DEPTH $fullrate
+
+            $merge $entry $loopback 
+				$phi count_down   := 
+						($bitcast ($uint<16>) 0) $on $entry
+							next_count_down $on $loopback
+				$phi input_word   := ##INPUT_PORT $on $entry, $loopback
+				$phi last_dest_id :=  0 $on $entry next_last_dest_id $on $loopback
+			$endmerge
+
+            $volatile new_packet := (count_down == 0)
+            $volatile $split (input_word 8 16 8) (dest_id pkt_length seq_id)
+            $volatile next_count_down := ($mux new_packet (pkt_length - 1) (count_down - 1))
+            $volatile next_last_dest_id := ($mux new_packet dest_id last_dest_id)
+            $volatile data_to_outport := ($concat ONE_1 input_word) // adding valid bit at start
+
+            $volatile send_to_1 := (next_last_dest_id == 1)
+            $guard (send_to_1) ##NOBLOCKOBUF_TO_1 := data_to_outport
+
+            $volatile send_to_2 := (next_last_dest_id == 2)
+            $guard (send_to_2) ##NOBLOCKOBUF_TO_2 := data_to_outport
+
+            $volatile send_to_3 := (next_last_dest_id == 3)
+            $guard (send_to_3) ##NOBLOCKOBUF_TO_3 := data_to_outport
+
+            $volatile send_to_4 := (next_last_dest_id == 4)
+            $guard (send_to_4) ##NOBLOCKOBUF_TO_4 := data_to_outport
+
+        $while 1
+    }
+}
