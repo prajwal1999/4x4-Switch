@@ -4,6 +4,7 @@ $parameter OPIPE_DEPTH  2
 
 $parameter PACKET_LENGTH_IN_WORDS  64
 $parameter OBUF_DEPTH_IN_PACKETS    2
+
 $parameter INPUT_PORT_PIPELINE_DEPTH 7
 $parameter OUTPUT_PORT_PIPELINE_DEPTH 7
 
@@ -50,6 +51,7 @@ $constant ZERO_1: $uint<1> := 0
 $constant ONE_1: $uint<1> := 1
 $constant ZERO_2: $uint<2> := 0
 $constant ONE_2: $uint<2> := 1
+$constant ZERO_3: $uint<3> := 0
 $constant ZERO_8: $uint<8> := 0
 $constant ONE_8: $uint<8> := 1
 $constant ZERO_33: $uint<33> := 0
