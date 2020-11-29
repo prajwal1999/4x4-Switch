@@ -1,0 +1,2999 @@
+Info:pThreadUtils: started thread inputPort_2_Daemon
+[2]inputPort_2_Daemon>	received_input_word
+[2]inputPort_2_Daemon>		input_word		:= 0x03003802
+[3]inputPort_2_Daemon>	new_packet_summary
+[3]inputPort_2_Daemon>		dest_id		:= 0x03
+[3]inputPort_2_Daemon>		pkt_length		:= 0x0038
+[3]inputPort_2_Daemon>		seq_id		:= 0x02
+[4]inputPort_2_Daemon>	write_status
+[4]inputPort_2_Daemon>		send_to_1		:= 0x0
+[4]inputPort_2_Daemon>		send_to_2		:= 0x0
+[4]inputPort_2_Daemon>		send_to_3		:= 0x1
+[4]inputPort_2_Daemon>		send_to_4		:= 0x0
+[4]inputPort_2_Daemon>		data_to_outport		:= 0x103003802
+[4]inputPort_2_Daemon>		new_packet		:= 0x1
+[4]inputPort_2_Daemon>		last_dest_id		:= 0x00
+[4]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[4]inputPort_2_Daemon>		count_down		:= 0x0000
+[5]inputPort_2_Daemon>	received_input_word
+[5]inputPort_2_Daemon>		input_word		:= 0x00000001
+[6]inputPort_2_Daemon>	new_packet_summary
+[6]inputPort_2_Daemon>		dest_id		:= 0x00
+[6]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[6]inputPort_2_Daemon>		seq_id		:= 0x01
+[7]inputPort_2_Daemon>	write_status
+[7]inputPort_2_Daemon>		send_to_1		:= 0x0
+[7]inputPort_2_Daemon>		send_to_2		:= 0x0
+[7]inputPort_2_Daemon>		send_to_3		:= 0x1
+[7]inputPort_2_Daemon>		send_to_4		:= 0x0
+[7]inputPort_2_Daemon>		data_to_outport		:= 0x100000001
+[7]inputPort_2_Daemon>		new_packet		:= 0x0
+[7]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[7]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[7]inputPort_2_Daemon>		count_down		:= 0x0037
+[8]inputPort_2_Daemon>	received_input_word
+[8]inputPort_2_Daemon>		input_word		:= 0x00000002
+[9]inputPort_2_Daemon>	new_packet_summary
+[9]inputPort_2_Daemon>		dest_id		:= 0x00
+[9]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[9]inputPort_2_Daemon>		seq_id		:= 0x02
+[10]inputPort_2_Daemon>	write_status
+[10]inputPort_2_Daemon>		send_to_1		:= 0x0
+[10]inputPort_2_Daemon>		send_to_2		:= 0x0
+[10]inputPort_2_Daemon>		send_to_3		:= 0x1
+[10]inputPort_2_Daemon>		send_to_4		:= 0x0
+[10]inputPort_2_Daemon>		data_to_outport		:= 0x100000002
+[10]inputPort_2_Daemon>		new_packet		:= 0x0
+[10]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[10]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[10]inputPort_2_Daemon>		count_down		:= 0x0036
+[11]inputPort_2_Daemon>	received_input_word
+[11]inputPort_2_Daemon>		input_word		:= 0x00000003
+[12]inputPort_2_Daemon>	new_packet_summary
+[12]inputPort_2_Daemon>		dest_id		:= 0x00
+[12]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[12]inputPort_2_Daemon>		seq_id		:= 0x03
+[13]inputPort_2_Daemon>	write_status
+[13]inputPort_2_Daemon>		send_to_1		:= 0x0
+[13]inputPort_2_Daemon>		send_to_2		:= 0x0
+[13]inputPort_2_Daemon>		send_to_3		:= 0x1
+[13]inputPort_2_Daemon>		send_to_4		:= 0x0
+[13]inputPort_2_Daemon>		data_to_outport		:= 0x100000003
+[13]inputPort_2_Daemon>		new_packet		:= 0x0
+[13]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[13]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[13]inputPort_2_Daemon>		count_down		:= 0x0035
+[14]inputPort_2_Daemon>	received_input_word
+[14]inputPort_2_Daemon>		input_word		:= 0x00000004
+[15]inputPort_2_Daemon>	new_packet_summary
+[15]inputPort_2_Daemon>		dest_id		:= 0x00
+[15]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[15]inputPort_2_Daemon>		seq_id		:= 0x04
+[16]inputPort_2_Daemon>	write_status
+[16]inputPort_2_Daemon>		send_to_1		:= 0x0
+[16]inputPort_2_Daemon>		send_to_2		:= 0x0
+[16]inputPort_2_Daemon>		send_to_3		:= 0x1
+[16]inputPort_2_Daemon>		send_to_4		:= 0x0
+[16]inputPort_2_Daemon>		data_to_outport		:= 0x100000004
+[16]inputPort_2_Daemon>		new_packet		:= 0x0
+[16]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[16]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[16]inputPort_2_Daemon>		count_down		:= 0x0034
+[17]inputPort_2_Daemon>	received_input_word
+[17]inputPort_2_Daemon>		input_word		:= 0x00000005
+[18]inputPort_2_Daemon>	new_packet_summary
+[18]inputPort_2_Daemon>		dest_id		:= 0x00
+[18]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[18]inputPort_2_Daemon>		seq_id		:= 0x05
+[19]inputPort_2_Daemon>	write_status
+[19]inputPort_2_Daemon>		send_to_1		:= 0x0
+[19]inputPort_2_Daemon>		send_to_2		:= 0x0
+[19]inputPort_2_Daemon>		send_to_3		:= 0x1
+[19]inputPort_2_Daemon>		send_to_4		:= 0x0
+[19]inputPort_2_Daemon>		data_to_outport		:= 0x100000005
+[19]inputPort_2_Daemon>		new_packet		:= 0x0
+[19]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[19]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[19]inputPort_2_Daemon>		count_down		:= 0x0033
+[20]inputPort_2_Daemon>	received_input_word
+[20]inputPort_2_Daemon>		input_word		:= 0x00000006
+[21]inputPort_2_Daemon>	new_packet_summary
+[21]inputPort_2_Daemon>		dest_id		:= 0x00
+[21]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[21]inputPort_2_Daemon>		seq_id		:= 0x06
+[22]inputPort_2_Daemon>	write_status
+[22]inputPort_2_Daemon>		send_to_1		:= 0x0
+[22]inputPort_2_Daemon>		send_to_2		:= 0x0
+[22]inputPort_2_Daemon>		send_to_3		:= 0x1
+[22]inputPort_2_Daemon>		send_to_4		:= 0x0
+[22]inputPort_2_Daemon>		data_to_outport		:= 0x100000006
+[22]inputPort_2_Daemon>		new_packet		:= 0x0
+[22]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[22]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[22]inputPort_2_Daemon>		count_down		:= 0x0032
+[23]inputPort_2_Daemon>	received_input_word
+[23]inputPort_2_Daemon>		input_word		:= 0x00000007
+[24]inputPort_2_Daemon>	new_packet_summary
+[24]inputPort_2_Daemon>		dest_id		:= 0x00
+[24]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[24]inputPort_2_Daemon>		seq_id		:= 0x07
+[25]inputPort_2_Daemon>	write_status
+[25]inputPort_2_Daemon>		send_to_1		:= 0x0
+[25]inputPort_2_Daemon>		send_to_2		:= 0x0
+[25]inputPort_2_Daemon>		send_to_3		:= 0x1
+[25]inputPort_2_Daemon>		send_to_4		:= 0x0
+[25]inputPort_2_Daemon>		data_to_outport		:= 0x100000007
+[25]inputPort_2_Daemon>		new_packet		:= 0x0
+[25]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[25]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[25]inputPort_2_Daemon>		count_down		:= 0x0031
+[26]inputPort_2_Daemon>	received_input_word
+[26]inputPort_2_Daemon>		input_word		:= 0x00000008
+[27]inputPort_2_Daemon>	new_packet_summary
+[27]inputPort_2_Daemon>		dest_id		:= 0x00
+[27]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[27]inputPort_2_Daemon>		seq_id		:= 0x08
+[28]inputPort_2_Daemon>	write_status
+[28]inputPort_2_Daemon>		send_to_1		:= 0x0
+[28]inputPort_2_Daemon>		send_to_2		:= 0x0
+[28]inputPort_2_Daemon>		send_to_3		:= 0x1
+[28]inputPort_2_Daemon>		send_to_4		:= 0x0
+[28]inputPort_2_Daemon>		data_to_outport		:= 0x100000008
+[28]inputPort_2_Daemon>		new_packet		:= 0x0
+[28]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[28]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[28]inputPort_2_Daemon>		count_down		:= 0x0030
+[29]inputPort_2_Daemon>	received_input_word
+[29]inputPort_2_Daemon>		input_word		:= 0x00000009
+[30]inputPort_2_Daemon>	new_packet_summary
+[30]inputPort_2_Daemon>		dest_id		:= 0x00
+[30]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[30]inputPort_2_Daemon>		seq_id		:= 0x09
+[31]inputPort_2_Daemon>	write_status
+[31]inputPort_2_Daemon>		send_to_1		:= 0x0
+[31]inputPort_2_Daemon>		send_to_2		:= 0x0
+[31]inputPort_2_Daemon>		send_to_3		:= 0x1
+[31]inputPort_2_Daemon>		send_to_4		:= 0x0
+[31]inputPort_2_Daemon>		data_to_outport		:= 0x100000009
+[31]inputPort_2_Daemon>		new_packet		:= 0x0
+[31]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[31]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[31]inputPort_2_Daemon>		count_down		:= 0x002f
+[32]inputPort_2_Daemon>	received_input_word
+[32]inputPort_2_Daemon>		input_word		:= 0x0000000a
+[33]inputPort_2_Daemon>	new_packet_summary
+[33]inputPort_2_Daemon>		dest_id		:= 0x00
+[33]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[33]inputPort_2_Daemon>		seq_id		:= 0x0a
+[34]inputPort_2_Daemon>	write_status
+[34]inputPort_2_Daemon>		send_to_1		:= 0x0
+[34]inputPort_2_Daemon>		send_to_2		:= 0x0
+[34]inputPort_2_Daemon>		send_to_3		:= 0x1
+[34]inputPort_2_Daemon>		send_to_4		:= 0x0
+[34]inputPort_2_Daemon>		data_to_outport		:= 0x10000000a
+[34]inputPort_2_Daemon>		new_packet		:= 0x0
+[34]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[34]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[34]inputPort_2_Daemon>		count_down		:= 0x002e
+[35]inputPort_2_Daemon>	received_input_word
+[35]inputPort_2_Daemon>		input_word		:= 0x0000000b
+[36]inputPort_2_Daemon>	new_packet_summary
+[36]inputPort_2_Daemon>		dest_id		:= 0x00
+[36]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[36]inputPort_2_Daemon>		seq_id		:= 0x0b
+[37]inputPort_2_Daemon>	write_status
+[37]inputPort_2_Daemon>		send_to_1		:= 0x0
+[37]inputPort_2_Daemon>		send_to_2		:= 0x0
+[37]inputPort_2_Daemon>		send_to_3		:= 0x1
+[37]inputPort_2_Daemon>		send_to_4		:= 0x0
+[37]inputPort_2_Daemon>		data_to_outport		:= 0x10000000b
+[37]inputPort_2_Daemon>		new_packet		:= 0x0
+[37]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[37]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[37]inputPort_2_Daemon>		count_down		:= 0x002d
+[38]inputPort_2_Daemon>	received_input_word
+[38]inputPort_2_Daemon>		input_word		:= 0x0000000c
+[39]inputPort_2_Daemon>	new_packet_summary
+[39]inputPort_2_Daemon>		dest_id		:= 0x00
+[39]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[39]inputPort_2_Daemon>		seq_id		:= 0x0c
+[40]inputPort_2_Daemon>	write_status
+[40]inputPort_2_Daemon>		send_to_1		:= 0x0
+[40]inputPort_2_Daemon>		send_to_2		:= 0x0
+[40]inputPort_2_Daemon>		send_to_3		:= 0x1
+[40]inputPort_2_Daemon>		send_to_4		:= 0x0
+[40]inputPort_2_Daemon>		data_to_outport		:= 0x10000000c
+[40]inputPort_2_Daemon>		new_packet		:= 0x0
+[40]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[40]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[40]inputPort_2_Daemon>		count_down		:= 0x002c
+[41]inputPort_2_Daemon>	received_input_word
+[41]inputPort_2_Daemon>		input_word		:= 0x0000000d
+[42]inputPort_2_Daemon>	new_packet_summary
+[42]inputPort_2_Daemon>		dest_id		:= 0x00
+[42]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[42]inputPort_2_Daemon>		seq_id		:= 0x0d
+[43]inputPort_2_Daemon>	write_status
+[43]inputPort_2_Daemon>		send_to_1		:= 0x0
+[43]inputPort_2_Daemon>		send_to_2		:= 0x0
+[43]inputPort_2_Daemon>		send_to_3		:= 0x1
+[43]inputPort_2_Daemon>		send_to_4		:= 0x0
+[43]inputPort_2_Daemon>		data_to_outport		:= 0x10000000d
+[43]inputPort_2_Daemon>		new_packet		:= 0x0
+[43]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[43]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[43]inputPort_2_Daemon>		count_down		:= 0x002b
+[44]inputPort_2_Daemon>	received_input_word
+[44]inputPort_2_Daemon>		input_word		:= 0x0000000e
+[45]inputPort_2_Daemon>	new_packet_summary
+[45]inputPort_2_Daemon>		dest_id		:= 0x00
+[45]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[45]inputPort_2_Daemon>		seq_id		:= 0x0e
+[46]inputPort_2_Daemon>	write_status
+[46]inputPort_2_Daemon>		send_to_1		:= 0x0
+[46]inputPort_2_Daemon>		send_to_2		:= 0x0
+[46]inputPort_2_Daemon>		send_to_3		:= 0x1
+[46]inputPort_2_Daemon>		send_to_4		:= 0x0
+[46]inputPort_2_Daemon>		data_to_outport		:= 0x10000000e
+[46]inputPort_2_Daemon>		new_packet		:= 0x0
+[46]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[46]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[46]inputPort_2_Daemon>		count_down		:= 0x002a
+[47]inputPort_2_Daemon>	received_input_word
+[47]inputPort_2_Daemon>		input_word		:= 0x0000000f
+[48]inputPort_2_Daemon>	new_packet_summary
+[48]inputPort_2_Daemon>		dest_id		:= 0x00
+[48]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[48]inputPort_2_Daemon>		seq_id		:= 0x0f
+[49]inputPort_2_Daemon>	write_status
+[49]inputPort_2_Daemon>		send_to_1		:= 0x0
+[49]inputPort_2_Daemon>		send_to_2		:= 0x0
+[49]inputPort_2_Daemon>		send_to_3		:= 0x1
+[49]inputPort_2_Daemon>		send_to_4		:= 0x0
+[49]inputPort_2_Daemon>		data_to_outport		:= 0x10000000f
+[49]inputPort_2_Daemon>		new_packet		:= 0x0
+[49]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[49]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[49]inputPort_2_Daemon>		count_down		:= 0x0029
+[50]inputPort_2_Daemon>	received_input_word
+[50]inputPort_2_Daemon>		input_word		:= 0x00000010
+[51]inputPort_2_Daemon>	new_packet_summary
+[51]inputPort_2_Daemon>		dest_id		:= 0x00
+[51]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[51]inputPort_2_Daemon>		seq_id		:= 0x10
+[52]inputPort_2_Daemon>	write_status
+[52]inputPort_2_Daemon>		send_to_1		:= 0x0
+[52]inputPort_2_Daemon>		send_to_2		:= 0x0
+[52]inputPort_2_Daemon>		send_to_3		:= 0x1
+[52]inputPort_2_Daemon>		send_to_4		:= 0x0
+[52]inputPort_2_Daemon>		data_to_outport		:= 0x100000010
+[52]inputPort_2_Daemon>		new_packet		:= 0x0
+[52]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[52]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[52]inputPort_2_Daemon>		count_down		:= 0x0028
+[53]inputPort_2_Daemon>	received_input_word
+[53]inputPort_2_Daemon>		input_word		:= 0x00000011
+[54]inputPort_2_Daemon>	new_packet_summary
+[54]inputPort_2_Daemon>		dest_id		:= 0x00
+[54]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[54]inputPort_2_Daemon>		seq_id		:= 0x11
+[55]inputPort_2_Daemon>	write_status
+[55]inputPort_2_Daemon>		send_to_1		:= 0x0
+[55]inputPort_2_Daemon>		send_to_2		:= 0x0
+[55]inputPort_2_Daemon>		send_to_3		:= 0x1
+[55]inputPort_2_Daemon>		send_to_4		:= 0x0
+[55]inputPort_2_Daemon>		data_to_outport		:= 0x100000011
+[55]inputPort_2_Daemon>		new_packet		:= 0x0
+[55]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[55]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[55]inputPort_2_Daemon>		count_down		:= 0x0027
+[56]inputPort_2_Daemon>	received_input_word
+[56]inputPort_2_Daemon>		input_word		:= 0x00000012
+[57]inputPort_2_Daemon>	new_packet_summary
+[57]inputPort_2_Daemon>		dest_id		:= 0x00
+[57]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[57]inputPort_2_Daemon>		seq_id		:= 0x12
+[58]inputPort_2_Daemon>	write_status
+[58]inputPort_2_Daemon>		send_to_1		:= 0x0
+[58]inputPort_2_Daemon>		send_to_2		:= 0x0
+[58]inputPort_2_Daemon>		send_to_3		:= 0x1
+[58]inputPort_2_Daemon>		send_to_4		:= 0x0
+[58]inputPort_2_Daemon>		data_to_outport		:= 0x100000012
+[58]inputPort_2_Daemon>		new_packet		:= 0x0
+[58]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[58]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[58]inputPort_2_Daemon>		count_down		:= 0x0026
+[59]inputPort_2_Daemon>	received_input_word
+[59]inputPort_2_Daemon>		input_word		:= 0x00000013
+[60]inputPort_2_Daemon>	new_packet_summary
+[60]inputPort_2_Daemon>		dest_id		:= 0x00
+[60]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[60]inputPort_2_Daemon>		seq_id		:= 0x13
+[61]inputPort_2_Daemon>	write_status
+[61]inputPort_2_Daemon>		send_to_1		:= 0x0
+[61]inputPort_2_Daemon>		send_to_2		:= 0x0
+[61]inputPort_2_Daemon>		send_to_3		:= 0x1
+[61]inputPort_2_Daemon>		send_to_4		:= 0x0
+[61]inputPort_2_Daemon>		data_to_outport		:= 0x100000013
+[61]inputPort_2_Daemon>		new_packet		:= 0x0
+[61]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[61]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[61]inputPort_2_Daemon>		count_down		:= 0x0025
+[62]inputPort_2_Daemon>	received_input_word
+[62]inputPort_2_Daemon>		input_word		:= 0x00000014
+[63]inputPort_2_Daemon>	new_packet_summary
+[63]inputPort_2_Daemon>		dest_id		:= 0x00
+[63]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[63]inputPort_2_Daemon>		seq_id		:= 0x14
+[64]inputPort_2_Daemon>	write_status
+[64]inputPort_2_Daemon>		send_to_1		:= 0x0
+[64]inputPort_2_Daemon>		send_to_2		:= 0x0
+[64]inputPort_2_Daemon>		send_to_3		:= 0x1
+[64]inputPort_2_Daemon>		send_to_4		:= 0x0
+[64]inputPort_2_Daemon>		data_to_outport		:= 0x100000014
+[64]inputPort_2_Daemon>		new_packet		:= 0x0
+[64]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[64]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[64]inputPort_2_Daemon>		count_down		:= 0x0024
+[65]inputPort_2_Daemon>	received_input_word
+[65]inputPort_2_Daemon>		input_word		:= 0x00000015
+[66]inputPort_2_Daemon>	new_packet_summary
+[66]inputPort_2_Daemon>		dest_id		:= 0x00
+[66]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[66]inputPort_2_Daemon>		seq_id		:= 0x15
+[67]inputPort_2_Daemon>	write_status
+[67]inputPort_2_Daemon>		send_to_1		:= 0x0
+[67]inputPort_2_Daemon>		send_to_2		:= 0x0
+[67]inputPort_2_Daemon>		send_to_3		:= 0x1
+[67]inputPort_2_Daemon>		send_to_4		:= 0x0
+[67]inputPort_2_Daemon>		data_to_outport		:= 0x100000015
+[67]inputPort_2_Daemon>		new_packet		:= 0x0
+[67]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[67]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[67]inputPort_2_Daemon>		count_down		:= 0x0023
+[68]inputPort_2_Daemon>	received_input_word
+[68]inputPort_2_Daemon>		input_word		:= 0x00000016
+[69]inputPort_2_Daemon>	new_packet_summary
+[69]inputPort_2_Daemon>		dest_id		:= 0x00
+[69]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[69]inputPort_2_Daemon>		seq_id		:= 0x16
+[70]inputPort_2_Daemon>	write_status
+[70]inputPort_2_Daemon>		send_to_1		:= 0x0
+[70]inputPort_2_Daemon>		send_to_2		:= 0x0
+[70]inputPort_2_Daemon>		send_to_3		:= 0x1
+[70]inputPort_2_Daemon>		send_to_4		:= 0x0
+[70]inputPort_2_Daemon>		data_to_outport		:= 0x100000016
+[70]inputPort_2_Daemon>		new_packet		:= 0x0
+[70]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[70]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[70]inputPort_2_Daemon>		count_down		:= 0x0022
+[71]inputPort_2_Daemon>	received_input_word
+[71]inputPort_2_Daemon>		input_word		:= 0x00000017
+[72]inputPort_2_Daemon>	new_packet_summary
+[72]inputPort_2_Daemon>		dest_id		:= 0x00
+[72]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[72]inputPort_2_Daemon>		seq_id		:= 0x17
+[73]inputPort_2_Daemon>	write_status
+[73]inputPort_2_Daemon>		send_to_1		:= 0x0
+[73]inputPort_2_Daemon>		send_to_2		:= 0x0
+[73]inputPort_2_Daemon>		send_to_3		:= 0x1
+[73]inputPort_2_Daemon>		send_to_4		:= 0x0
+[73]inputPort_2_Daemon>		data_to_outport		:= 0x100000017
+[73]inputPort_2_Daemon>		new_packet		:= 0x0
+[73]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[73]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[73]inputPort_2_Daemon>		count_down		:= 0x0021
+[74]inputPort_2_Daemon>	received_input_word
+[74]inputPort_2_Daemon>		input_word		:= 0x00000018
+[75]inputPort_2_Daemon>	new_packet_summary
+[75]inputPort_2_Daemon>		dest_id		:= 0x00
+[75]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[75]inputPort_2_Daemon>		seq_id		:= 0x18
+[76]inputPort_2_Daemon>	write_status
+[76]inputPort_2_Daemon>		send_to_1		:= 0x0
+[76]inputPort_2_Daemon>		send_to_2		:= 0x0
+[76]inputPort_2_Daemon>		send_to_3		:= 0x1
+[76]inputPort_2_Daemon>		send_to_4		:= 0x0
+[76]inputPort_2_Daemon>		data_to_outport		:= 0x100000018
+[76]inputPort_2_Daemon>		new_packet		:= 0x0
+[76]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[76]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[76]inputPort_2_Daemon>		count_down		:= 0x0020
+[77]inputPort_2_Daemon>	received_input_word
+[77]inputPort_2_Daemon>		input_word		:= 0x00000019
+[78]inputPort_2_Daemon>	new_packet_summary
+[78]inputPort_2_Daemon>		dest_id		:= 0x00
+[78]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[78]inputPort_2_Daemon>		seq_id		:= 0x19
+[79]inputPort_2_Daemon>	write_status
+[79]inputPort_2_Daemon>		send_to_1		:= 0x0
+[79]inputPort_2_Daemon>		send_to_2		:= 0x0
+[79]inputPort_2_Daemon>		send_to_3		:= 0x1
+[79]inputPort_2_Daemon>		send_to_4		:= 0x0
+[79]inputPort_2_Daemon>		data_to_outport		:= 0x100000019
+[79]inputPort_2_Daemon>		new_packet		:= 0x0
+[79]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[79]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[79]inputPort_2_Daemon>		count_down		:= 0x001f
+[80]inputPort_2_Daemon>	received_input_word
+[80]inputPort_2_Daemon>		input_word		:= 0x0000001a
+[81]inputPort_2_Daemon>	new_packet_summary
+[81]inputPort_2_Daemon>		dest_id		:= 0x00
+[81]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[81]inputPort_2_Daemon>		seq_id		:= 0x1a
+[82]inputPort_2_Daemon>	write_status
+[82]inputPort_2_Daemon>		send_to_1		:= 0x0
+[82]inputPort_2_Daemon>		send_to_2		:= 0x0
+[82]inputPort_2_Daemon>		send_to_3		:= 0x1
+[82]inputPort_2_Daemon>		send_to_4		:= 0x0
+[82]inputPort_2_Daemon>		data_to_outport		:= 0x10000001a
+[82]inputPort_2_Daemon>		new_packet		:= 0x0
+[82]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[82]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[82]inputPort_2_Daemon>		count_down		:= 0x001e
+[83]inputPort_2_Daemon>	received_input_word
+[83]inputPort_2_Daemon>		input_word		:= 0x0000001b
+[84]inputPort_2_Daemon>	new_packet_summary
+[84]inputPort_2_Daemon>		dest_id		:= 0x00
+[84]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[84]inputPort_2_Daemon>		seq_id		:= 0x1b
+[85]inputPort_2_Daemon>	write_status
+[85]inputPort_2_Daemon>		send_to_1		:= 0x0
+[85]inputPort_2_Daemon>		send_to_2		:= 0x0
+[85]inputPort_2_Daemon>		send_to_3		:= 0x1
+[85]inputPort_2_Daemon>		send_to_4		:= 0x0
+[85]inputPort_2_Daemon>		data_to_outport		:= 0x10000001b
+[85]inputPort_2_Daemon>		new_packet		:= 0x0
+[85]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[85]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[85]inputPort_2_Daemon>		count_down		:= 0x001d
+[86]inputPort_2_Daemon>	received_input_word
+[86]inputPort_2_Daemon>		input_word		:= 0x0000001c
+[87]inputPort_2_Daemon>	new_packet_summary
+[87]inputPort_2_Daemon>		dest_id		:= 0x00
+[87]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[87]inputPort_2_Daemon>		seq_id		:= 0x1c
+[88]inputPort_2_Daemon>	write_status
+[88]inputPort_2_Daemon>		send_to_1		:= 0x0
+[88]inputPort_2_Daemon>		send_to_2		:= 0x0
+[88]inputPort_2_Daemon>		send_to_3		:= 0x1
+[88]inputPort_2_Daemon>		send_to_4		:= 0x0
+[88]inputPort_2_Daemon>		data_to_outport		:= 0x10000001c
+[88]inputPort_2_Daemon>		new_packet		:= 0x0
+[88]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[88]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[88]inputPort_2_Daemon>		count_down		:= 0x001c
+[89]inputPort_2_Daemon>	received_input_word
+[89]inputPort_2_Daemon>		input_word		:= 0x0000001d
+[90]inputPort_2_Daemon>	new_packet_summary
+[90]inputPort_2_Daemon>		dest_id		:= 0x00
+[90]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[90]inputPort_2_Daemon>		seq_id		:= 0x1d
+[91]inputPort_2_Daemon>	write_status
+[91]inputPort_2_Daemon>		send_to_1		:= 0x0
+[91]inputPort_2_Daemon>		send_to_2		:= 0x0
+[91]inputPort_2_Daemon>		send_to_3		:= 0x1
+[91]inputPort_2_Daemon>		send_to_4		:= 0x0
+[91]inputPort_2_Daemon>		data_to_outport		:= 0x10000001d
+[91]inputPort_2_Daemon>		new_packet		:= 0x0
+[91]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[91]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[91]inputPort_2_Daemon>		count_down		:= 0x001b
+[92]inputPort_2_Daemon>	received_input_word
+[92]inputPort_2_Daemon>		input_word		:= 0x0000001e
+[93]inputPort_2_Daemon>	new_packet_summary
+[93]inputPort_2_Daemon>		dest_id		:= 0x00
+[93]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[93]inputPort_2_Daemon>		seq_id		:= 0x1e
+[94]inputPort_2_Daemon>	write_status
+[94]inputPort_2_Daemon>		send_to_1		:= 0x0
+[94]inputPort_2_Daemon>		send_to_2		:= 0x0
+[94]inputPort_2_Daemon>		send_to_3		:= 0x1
+[94]inputPort_2_Daemon>		send_to_4		:= 0x0
+[94]inputPort_2_Daemon>		data_to_outport		:= 0x10000001e
+[94]inputPort_2_Daemon>		new_packet		:= 0x0
+[94]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[94]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[94]inputPort_2_Daemon>		count_down		:= 0x001a
+[95]inputPort_2_Daemon>	received_input_word
+[95]inputPort_2_Daemon>		input_word		:= 0x0000001f
+[96]inputPort_2_Daemon>	new_packet_summary
+[96]inputPort_2_Daemon>		dest_id		:= 0x00
+[96]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[96]inputPort_2_Daemon>		seq_id		:= 0x1f
+[97]inputPort_2_Daemon>	write_status
+[97]inputPort_2_Daemon>		send_to_1		:= 0x0
+[97]inputPort_2_Daemon>		send_to_2		:= 0x0
+[97]inputPort_2_Daemon>		send_to_3		:= 0x1
+[97]inputPort_2_Daemon>		send_to_4		:= 0x0
+[97]inputPort_2_Daemon>		data_to_outport		:= 0x10000001f
+[97]inputPort_2_Daemon>		new_packet		:= 0x0
+[97]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[97]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[97]inputPort_2_Daemon>		count_down		:= 0x0019
+[98]inputPort_2_Daemon>	received_input_word
+[98]inputPort_2_Daemon>		input_word		:= 0x00000020
+[99]inputPort_2_Daemon>	new_packet_summary
+[99]inputPort_2_Daemon>		dest_id		:= 0x00
+[99]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[99]inputPort_2_Daemon>		seq_id		:= 0x20
+[100]inputPort_2_Daemon>	write_status
+[100]inputPort_2_Daemon>		send_to_1		:= 0x0
+[100]inputPort_2_Daemon>		send_to_2		:= 0x0
+[100]inputPort_2_Daemon>		send_to_3		:= 0x1
+[100]inputPort_2_Daemon>		send_to_4		:= 0x0
+[100]inputPort_2_Daemon>		data_to_outport		:= 0x100000020
+[100]inputPort_2_Daemon>		new_packet		:= 0x0
+[100]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[100]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[100]inputPort_2_Daemon>		count_down		:= 0x0018
+[118]inputPort_2_Daemon>	received_input_word
+[118]inputPort_2_Daemon>		input_word		:= 0x00000021
+[119]inputPort_2_Daemon>	new_packet_summary
+[119]inputPort_2_Daemon>		dest_id		:= 0x00
+[119]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[119]inputPort_2_Daemon>		seq_id		:= 0x21
+[120]inputPort_2_Daemon>	write_status
+[120]inputPort_2_Daemon>		send_to_1		:= 0x0
+[120]inputPort_2_Daemon>		send_to_2		:= 0x0
+[120]inputPort_2_Daemon>		send_to_3		:= 0x1
+[120]inputPort_2_Daemon>		send_to_4		:= 0x0
+[120]inputPort_2_Daemon>		data_to_outport		:= 0x100000021
+[120]inputPort_2_Daemon>		new_packet		:= 0x0
+[120]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[120]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[120]inputPort_2_Daemon>		count_down		:= 0x0017
+[121]inputPort_2_Daemon>	received_input_word
+[121]inputPort_2_Daemon>		input_word		:= 0x00000022
+[123]inputPort_2_Daemon>	new_packet_summary
+[123]inputPort_2_Daemon>		dest_id		:= 0x00
+[123]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[123]inputPort_2_Daemon>		seq_id		:= 0x22
+[124]inputPort_2_Daemon>	write_status
+[124]inputPort_2_Daemon>		send_to_1		:= 0x0
+[124]inputPort_2_Daemon>		send_to_2		:= 0x0
+[124]inputPort_2_Daemon>		send_to_3		:= 0x1
+[124]inputPort_2_Daemon>		send_to_4		:= 0x0
+[124]inputPort_2_Daemon>		data_to_outport		:= 0x100000022
+[124]inputPort_2_Daemon>		new_packet		:= 0x0
+[124]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[124]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[124]inputPort_2_Daemon>		count_down		:= 0x0016
+[142]inputPort_2_Daemon>	received_input_word
+[142]inputPort_2_Daemon>		input_word		:= 0x00000023
+[143]inputPort_2_Daemon>	new_packet_summary
+[143]inputPort_2_Daemon>		dest_id		:= 0x00
+[143]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[143]inputPort_2_Daemon>		seq_id		:= 0x23
+[144]inputPort_2_Daemon>	write_status
+[144]inputPort_2_Daemon>		send_to_1		:= 0x0
+[144]inputPort_2_Daemon>		send_to_2		:= 0x0
+[144]inputPort_2_Daemon>		send_to_3		:= 0x1
+[144]inputPort_2_Daemon>		send_to_4		:= 0x0
+[144]inputPort_2_Daemon>		data_to_outport		:= 0x100000023
+[144]inputPort_2_Daemon>		new_packet		:= 0x0
+[144]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[144]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[144]inputPort_2_Daemon>		count_down		:= 0x0015
+[159]inputPort_2_Daemon>	received_input_word
+[159]inputPort_2_Daemon>		input_word		:= 0x00000024
+[160]inputPort_2_Daemon>	new_packet_summary
+[160]inputPort_2_Daemon>		dest_id		:= 0x00
+[160]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[160]inputPort_2_Daemon>		seq_id		:= 0x24
+[161]inputPort_2_Daemon>	write_status
+[161]inputPort_2_Daemon>		send_to_1		:= 0x0
+[161]inputPort_2_Daemon>		send_to_2		:= 0x0
+[161]inputPort_2_Daemon>		send_to_3		:= 0x1
+[161]inputPort_2_Daemon>		send_to_4		:= 0x0
+[161]inputPort_2_Daemon>		data_to_outport		:= 0x100000024
+[161]inputPort_2_Daemon>		new_packet		:= 0x0
+[161]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[161]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[161]inputPort_2_Daemon>		count_down		:= 0x0014
+[162]inputPort_2_Daemon>	received_input_word
+[162]inputPort_2_Daemon>		input_word		:= 0x00000025
+[163]inputPort_2_Daemon>	new_packet_summary
+[163]inputPort_2_Daemon>		dest_id		:= 0x00
+[163]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[163]inputPort_2_Daemon>		seq_id		:= 0x25
+[315]inputPort_2_Daemon>	write_status
+[315]inputPort_2_Daemon>		send_to_1		:= 0x0
+[315]inputPort_2_Daemon>		send_to_2		:= 0x0
+[315]inputPort_2_Daemon>		send_to_3		:= 0x1
+[315]inputPort_2_Daemon>		send_to_4		:= 0x0
+[315]inputPort_2_Daemon>		data_to_outport		:= 0x100000025
+[315]inputPort_2_Daemon>		new_packet		:= 0x0
+[315]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[315]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[315]inputPort_2_Daemon>		count_down		:= 0x0013
+[316]inputPort_2_Daemon>	received_input_word
+[316]inputPort_2_Daemon>		input_word		:= 0x00000026
+[317]inputPort_2_Daemon>	new_packet_summary
+[317]inputPort_2_Daemon>		dest_id		:= 0x00
+[317]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[317]inputPort_2_Daemon>		seq_id		:= 0x26
+[318]inputPort_2_Daemon>	write_status
+[318]inputPort_2_Daemon>		send_to_1		:= 0x0
+[318]inputPort_2_Daemon>		send_to_2		:= 0x0
+[318]inputPort_2_Daemon>		send_to_3		:= 0x1
+[318]inputPort_2_Daemon>		send_to_4		:= 0x0
+[318]inputPort_2_Daemon>		data_to_outport		:= 0x100000026
+[318]inputPort_2_Daemon>		new_packet		:= 0x0
+[318]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[318]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[318]inputPort_2_Daemon>		count_down		:= 0x0012
+[319]inputPort_2_Daemon>	received_input_word
+[319]inputPort_2_Daemon>		input_word		:= 0x00000027
+[320]inputPort_2_Daemon>	new_packet_summary
+[320]inputPort_2_Daemon>		dest_id		:= 0x00
+[320]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[320]inputPort_2_Daemon>		seq_id		:= 0x27
+[327]inputPort_2_Daemon>	write_status
+[327]inputPort_2_Daemon>		send_to_1		:= 0x0
+[327]inputPort_2_Daemon>		send_to_2		:= 0x0
+[327]inputPort_2_Daemon>		send_to_3		:= 0x1
+[327]inputPort_2_Daemon>		send_to_4		:= 0x0
+[327]inputPort_2_Daemon>		data_to_outport		:= 0x100000027
+[327]inputPort_2_Daemon>		new_packet		:= 0x0
+[327]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[327]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[327]inputPort_2_Daemon>		count_down		:= 0x0011
+[328]inputPort_2_Daemon>	received_input_word
+[328]inputPort_2_Daemon>		input_word		:= 0x00000028
+[329]inputPort_2_Daemon>	new_packet_summary
+[329]inputPort_2_Daemon>		dest_id		:= 0x00
+[329]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[329]inputPort_2_Daemon>		seq_id		:= 0x28
+[331]inputPort_2_Daemon>	write_status
+[331]inputPort_2_Daemon>		send_to_1		:= 0x0
+[331]inputPort_2_Daemon>		send_to_2		:= 0x0
+[331]inputPort_2_Daemon>		send_to_3		:= 0x1
+[331]inputPort_2_Daemon>		send_to_4		:= 0x0
+[331]inputPort_2_Daemon>		data_to_outport		:= 0x100000028
+[331]inputPort_2_Daemon>		new_packet		:= 0x0
+[331]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[331]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[331]inputPort_2_Daemon>		count_down		:= 0x0010
+[332]inputPort_2_Daemon>	received_input_word
+[332]inputPort_2_Daemon>		input_word		:= 0x00000029
+[333]inputPort_2_Daemon>	new_packet_summary
+[333]inputPort_2_Daemon>		dest_id		:= 0x00
+[333]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[333]inputPort_2_Daemon>		seq_id		:= 0x29
+[334]inputPort_2_Daemon>	write_status
+[334]inputPort_2_Daemon>		send_to_1		:= 0x0
+[334]inputPort_2_Daemon>		send_to_2		:= 0x0
+[334]inputPort_2_Daemon>		send_to_3		:= 0x1
+[334]inputPort_2_Daemon>		send_to_4		:= 0x0
+[334]inputPort_2_Daemon>		data_to_outport		:= 0x100000029
+[334]inputPort_2_Daemon>		new_packet		:= 0x0
+[334]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[334]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[334]inputPort_2_Daemon>		count_down		:= 0x000f
+[358]inputPort_2_Daemon>	received_input_word
+[358]inputPort_2_Daemon>		input_word		:= 0x0000002a
+[359]inputPort_2_Daemon>	new_packet_summary
+[359]inputPort_2_Daemon>		dest_id		:= 0x00
+[359]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[359]inputPort_2_Daemon>		seq_id		:= 0x2a
+[360]inputPort_2_Daemon>	write_status
+[360]inputPort_2_Daemon>		send_to_1		:= 0x0
+[360]inputPort_2_Daemon>		send_to_2		:= 0x0
+[360]inputPort_2_Daemon>		send_to_3		:= 0x1
+[360]inputPort_2_Daemon>		send_to_4		:= 0x0
+[360]inputPort_2_Daemon>		data_to_outport		:= 0x10000002a
+[360]inputPort_2_Daemon>		new_packet		:= 0x0
+[360]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[360]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[360]inputPort_2_Daemon>		count_down		:= 0x000e
+[384]inputPort_2_Daemon>	received_input_word
+[384]inputPort_2_Daemon>		input_word		:= 0x0000002b
+[388]inputPort_2_Daemon>	new_packet_summary
+[388]inputPort_2_Daemon>		dest_id		:= 0x00
+[388]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[388]inputPort_2_Daemon>		seq_id		:= 0x2b
+[392]inputPort_2_Daemon>	write_status
+[392]inputPort_2_Daemon>		send_to_1		:= 0x0
+[392]inputPort_2_Daemon>		send_to_2		:= 0x0
+[392]inputPort_2_Daemon>		send_to_3		:= 0x1
+[392]inputPort_2_Daemon>		send_to_4		:= 0x0
+[392]inputPort_2_Daemon>		data_to_outport		:= 0x10000002b
+[392]inputPort_2_Daemon>		new_packet		:= 0x0
+[392]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[392]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[392]inputPort_2_Daemon>		count_down		:= 0x000d
+[394]inputPort_2_Daemon>	received_input_word
+[394]inputPort_2_Daemon>		input_word		:= 0x0000002c
+[395]inputPort_2_Daemon>	new_packet_summary
+[395]inputPort_2_Daemon>		dest_id		:= 0x00
+[395]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[395]inputPort_2_Daemon>		seq_id		:= 0x2c
+[397]inputPort_2_Daemon>	write_status
+[397]inputPort_2_Daemon>		send_to_1		:= 0x0
+[397]inputPort_2_Daemon>		send_to_2		:= 0x0
+[397]inputPort_2_Daemon>		send_to_3		:= 0x1
+[397]inputPort_2_Daemon>		send_to_4		:= 0x0
+[397]inputPort_2_Daemon>		data_to_outport		:= 0x10000002c
+[397]inputPort_2_Daemon>		new_packet		:= 0x0
+[397]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[397]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[397]inputPort_2_Daemon>		count_down		:= 0x000c
+[398]inputPort_2_Daemon>	received_input_word
+[398]inputPort_2_Daemon>		input_word		:= 0x0000002d
+[399]inputPort_2_Daemon>	new_packet_summary
+[399]inputPort_2_Daemon>		dest_id		:= 0x00
+[399]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[399]inputPort_2_Daemon>		seq_id		:= 0x2d
+[400]inputPort_2_Daemon>	write_status
+[400]inputPort_2_Daemon>		send_to_1		:= 0x0
+[400]inputPort_2_Daemon>		send_to_2		:= 0x0
+[400]inputPort_2_Daemon>		send_to_3		:= 0x1
+[400]inputPort_2_Daemon>		send_to_4		:= 0x0
+[400]inputPort_2_Daemon>		data_to_outport		:= 0x10000002d
+[400]inputPort_2_Daemon>		new_packet		:= 0x0
+[400]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[400]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[400]inputPort_2_Daemon>		count_down		:= 0x000b
+[418]inputPort_2_Daemon>	received_input_word
+[418]inputPort_2_Daemon>		input_word		:= 0x0000002e
+[421]inputPort_2_Daemon>	new_packet_summary
+[421]inputPort_2_Daemon>		dest_id		:= 0x00
+[421]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[421]inputPort_2_Daemon>		seq_id		:= 0x2e
+[427]inputPort_2_Daemon>	write_status
+[427]inputPort_2_Daemon>		send_to_1		:= 0x0
+[427]inputPort_2_Daemon>		send_to_2		:= 0x0
+[427]inputPort_2_Daemon>		send_to_3		:= 0x1
+[427]inputPort_2_Daemon>		send_to_4		:= 0x0
+[427]inputPort_2_Daemon>		data_to_outport		:= 0x10000002e
+[427]inputPort_2_Daemon>		new_packet		:= 0x0
+[427]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[427]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[427]inputPort_2_Daemon>		count_down		:= 0x000a
+[428]inputPort_2_Daemon>	received_input_word
+[428]inputPort_2_Daemon>		input_word		:= 0x0000002f
+[429]inputPort_2_Daemon>	new_packet_summary
+[429]inputPort_2_Daemon>		dest_id		:= 0x00
+[429]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[429]inputPort_2_Daemon>		seq_id		:= 0x2f
+[430]inputPort_2_Daemon>	write_status
+[430]inputPort_2_Daemon>		send_to_1		:= 0x0
+[430]inputPort_2_Daemon>		send_to_2		:= 0x0
+[430]inputPort_2_Daemon>		send_to_3		:= 0x1
+[430]inputPort_2_Daemon>		send_to_4		:= 0x0
+[430]inputPort_2_Daemon>		data_to_outport		:= 0x10000002f
+[430]inputPort_2_Daemon>		new_packet		:= 0x0
+[430]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[430]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[430]inputPort_2_Daemon>		count_down		:= 0x0009
+[431]inputPort_2_Daemon>	received_input_word
+[431]inputPort_2_Daemon>		input_word		:= 0x00000030
+[432]inputPort_2_Daemon>	new_packet_summary
+[432]inputPort_2_Daemon>		dest_id		:= 0x00
+[432]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[432]inputPort_2_Daemon>		seq_id		:= 0x30
+[433]inputPort_2_Daemon>	write_status
+[433]inputPort_2_Daemon>		send_to_1		:= 0x0
+[433]inputPort_2_Daemon>		send_to_2		:= 0x0
+[433]inputPort_2_Daemon>		send_to_3		:= 0x1
+[433]inputPort_2_Daemon>		send_to_4		:= 0x0
+[433]inputPort_2_Daemon>		data_to_outport		:= 0x100000030
+[433]inputPort_2_Daemon>		new_packet		:= 0x0
+[433]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[433]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[433]inputPort_2_Daemon>		count_down		:= 0x0008
+[560]inputPort_2_Daemon>	received_input_word
+[560]inputPort_2_Daemon>		input_word		:= 0x00000031
+[561]inputPort_2_Daemon>	new_packet_summary
+[561]inputPort_2_Daemon>		dest_id		:= 0x00
+[561]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[561]inputPort_2_Daemon>		seq_id		:= 0x31
+[562]inputPort_2_Daemon>	write_status
+[562]inputPort_2_Daemon>		send_to_1		:= 0x0
+[562]inputPort_2_Daemon>		send_to_2		:= 0x0
+[562]inputPort_2_Daemon>		send_to_3		:= 0x1
+[562]inputPort_2_Daemon>		send_to_4		:= 0x0
+[562]inputPort_2_Daemon>		data_to_outport		:= 0x100000031
+[562]inputPort_2_Daemon>		new_packet		:= 0x0
+[562]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[562]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[562]inputPort_2_Daemon>		count_down		:= 0x0007
+[563]inputPort_2_Daemon>	received_input_word
+[563]inputPort_2_Daemon>		input_word		:= 0x00000032
+[564]inputPort_2_Daemon>	new_packet_summary
+[564]inputPort_2_Daemon>		dest_id		:= 0x00
+[564]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[564]inputPort_2_Daemon>		seq_id		:= 0x32
+[565]inputPort_2_Daemon>	write_status
+[565]inputPort_2_Daemon>		send_to_1		:= 0x0
+[565]inputPort_2_Daemon>		send_to_2		:= 0x0
+[565]inputPort_2_Daemon>		send_to_3		:= 0x1
+[565]inputPort_2_Daemon>		send_to_4		:= 0x0
+[565]inputPort_2_Daemon>		data_to_outport		:= 0x100000032
+[565]inputPort_2_Daemon>		new_packet		:= 0x0
+[565]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[565]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[565]inputPort_2_Daemon>		count_down		:= 0x0006
+[749]inputPort_2_Daemon>	received_input_word
+[749]inputPort_2_Daemon>		input_word		:= 0x00000033
+[754]inputPort_2_Daemon>	new_packet_summary
+[754]inputPort_2_Daemon>		dest_id		:= 0x00
+[754]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[754]inputPort_2_Daemon>		seq_id		:= 0x33
+[755]inputPort_2_Daemon>	write_status
+[755]inputPort_2_Daemon>		send_to_1		:= 0x0
+[755]inputPort_2_Daemon>		send_to_2		:= 0x0
+[755]inputPort_2_Daemon>		send_to_3		:= 0x1
+[755]inputPort_2_Daemon>		send_to_4		:= 0x0
+[755]inputPort_2_Daemon>		data_to_outport		:= 0x100000033
+[755]inputPort_2_Daemon>		new_packet		:= 0x0
+[755]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[755]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[755]inputPort_2_Daemon>		count_down		:= 0x0005
+[756]inputPort_2_Daemon>	received_input_word
+[756]inputPort_2_Daemon>		input_word		:= 0x00000034
+[757]inputPort_2_Daemon>	new_packet_summary
+[757]inputPort_2_Daemon>		dest_id		:= 0x00
+[757]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[757]inputPort_2_Daemon>		seq_id		:= 0x34
+[758]inputPort_2_Daemon>	write_status
+[758]inputPort_2_Daemon>		send_to_1		:= 0x0
+[758]inputPort_2_Daemon>		send_to_2		:= 0x0
+[758]inputPort_2_Daemon>		send_to_3		:= 0x1
+[758]inputPort_2_Daemon>		send_to_4		:= 0x0
+[758]inputPort_2_Daemon>		data_to_outport		:= 0x100000034
+[758]inputPort_2_Daemon>		new_packet		:= 0x0
+[758]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[758]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[758]inputPort_2_Daemon>		count_down		:= 0x0004
+[759]inputPort_2_Daemon>	received_input_word
+[759]inputPort_2_Daemon>		input_word		:= 0x00000035
+[760]inputPort_2_Daemon>	new_packet_summary
+[760]inputPort_2_Daemon>		dest_id		:= 0x00
+[760]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[760]inputPort_2_Daemon>		seq_id		:= 0x35
+[761]inputPort_2_Daemon>	write_status
+[761]inputPort_2_Daemon>		send_to_1		:= 0x0
+[761]inputPort_2_Daemon>		send_to_2		:= 0x0
+[761]inputPort_2_Daemon>		send_to_3		:= 0x1
+[761]inputPort_2_Daemon>		send_to_4		:= 0x0
+[761]inputPort_2_Daemon>		data_to_outport		:= 0x100000035
+[761]inputPort_2_Daemon>		new_packet		:= 0x0
+[761]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[761]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[761]inputPort_2_Daemon>		count_down		:= 0x0003
+[762]inputPort_2_Daemon>	received_input_word
+[762]inputPort_2_Daemon>		input_word		:= 0x00000036
+[763]inputPort_2_Daemon>	new_packet_summary
+[763]inputPort_2_Daemon>		dest_id		:= 0x00
+[763]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[763]inputPort_2_Daemon>		seq_id		:= 0x36
+[764]inputPort_2_Daemon>	write_status
+[764]inputPort_2_Daemon>		send_to_1		:= 0x0
+[764]inputPort_2_Daemon>		send_to_2		:= 0x0
+[764]inputPort_2_Daemon>		send_to_3		:= 0x1
+[764]inputPort_2_Daemon>		send_to_4		:= 0x0
+[764]inputPort_2_Daemon>		data_to_outport		:= 0x100000036
+[764]inputPort_2_Daemon>		new_packet		:= 0x0
+[764]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[764]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[764]inputPort_2_Daemon>		count_down		:= 0x0002
+[765]inputPort_2_Daemon>	received_input_word
+[765]inputPort_2_Daemon>		input_word		:= 0x00000037
+[766]inputPort_2_Daemon>	new_packet_summary
+[766]inputPort_2_Daemon>		dest_id		:= 0x00
+[766]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[766]inputPort_2_Daemon>		seq_id		:= 0x37
+[767]inputPort_2_Daemon>	write_status
+[767]inputPort_2_Daemon>		send_to_1		:= 0x0
+[767]inputPort_2_Daemon>		send_to_2		:= 0x0
+[767]inputPort_2_Daemon>		send_to_3		:= 0x1
+[767]inputPort_2_Daemon>		send_to_4		:= 0x0
+[767]inputPort_2_Daemon>		data_to_outport		:= 0x100000037
+[767]inputPort_2_Daemon>		new_packet		:= 0x0
+[767]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[767]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[767]inputPort_2_Daemon>		count_down		:= 0x0001
+[768]inputPort_2_Daemon>	received_input_word
+[768]inputPort_2_Daemon>		input_word		:= 0x03003806
+[769]inputPort_2_Daemon>	new_packet_summary
+[769]inputPort_2_Daemon>		dest_id		:= 0x03
+[769]inputPort_2_Daemon>		pkt_length		:= 0x0038
+[769]inputPort_2_Daemon>		seq_id		:= 0x06
+[770]inputPort_2_Daemon>	write_status
+[770]inputPort_2_Daemon>		send_to_1		:= 0x0
+[770]inputPort_2_Daemon>		send_to_2		:= 0x0
+[770]inputPort_2_Daemon>		send_to_3		:= 0x1
+[770]inputPort_2_Daemon>		send_to_4		:= 0x0
+[770]inputPort_2_Daemon>		data_to_outport		:= 0x103003806
+[770]inputPort_2_Daemon>		new_packet		:= 0x1
+[770]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[770]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[770]inputPort_2_Daemon>		count_down		:= 0x0000
+[997]inputPort_2_Daemon>	received_input_word
+[997]inputPort_2_Daemon>		input_word		:= 0x00000001
+[998]inputPort_2_Daemon>	new_packet_summary
+[998]inputPort_2_Daemon>		dest_id		:= 0x00
+[998]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[998]inputPort_2_Daemon>		seq_id		:= 0x01
+[1002]inputPort_2_Daemon>	write_status
+[1002]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1002]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1002]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1002]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1002]inputPort_2_Daemon>		data_to_outport		:= 0x100000001
+[1002]inputPort_2_Daemon>		new_packet		:= 0x0
+[1002]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1002]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1002]inputPort_2_Daemon>		count_down		:= 0x0037
+[1003]inputPort_2_Daemon>	received_input_word
+[1003]inputPort_2_Daemon>		input_word		:= 0x00000002
+[1004]inputPort_2_Daemon>	new_packet_summary
+[1004]inputPort_2_Daemon>		dest_id		:= 0x00
+[1004]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1004]inputPort_2_Daemon>		seq_id		:= 0x02
+[1005]inputPort_2_Daemon>	write_status
+[1005]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1005]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1005]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1005]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1005]inputPort_2_Daemon>		data_to_outport		:= 0x100000002
+[1005]inputPort_2_Daemon>		new_packet		:= 0x0
+[1005]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1005]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1005]inputPort_2_Daemon>		count_down		:= 0x0036
+[1009]inputPort_2_Daemon>	received_input_word
+[1009]inputPort_2_Daemon>		input_word		:= 0x00000003
+[1010]inputPort_2_Daemon>	new_packet_summary
+[1010]inputPort_2_Daemon>		dest_id		:= 0x00
+[1010]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1010]inputPort_2_Daemon>		seq_id		:= 0x03
+[1011]inputPort_2_Daemon>	write_status
+[1011]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1011]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1011]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1011]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1011]inputPort_2_Daemon>		data_to_outport		:= 0x100000003
+[1011]inputPort_2_Daemon>		new_packet		:= 0x0
+[1011]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1011]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1011]inputPort_2_Daemon>		count_down		:= 0x0035
+[1022]inputPort_2_Daemon>	received_input_word
+[1022]inputPort_2_Daemon>		input_word		:= 0x00000004
+[1023]inputPort_2_Daemon>	new_packet_summary
+[1023]inputPort_2_Daemon>		dest_id		:= 0x00
+[1023]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1023]inputPort_2_Daemon>		seq_id		:= 0x04
+[1024]inputPort_2_Daemon>	write_status
+[1024]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1024]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1024]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1024]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1024]inputPort_2_Daemon>		data_to_outport		:= 0x100000004
+[1024]inputPort_2_Daemon>		new_packet		:= 0x0
+[1024]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1024]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1024]inputPort_2_Daemon>		count_down		:= 0x0034
+[1025]inputPort_2_Daemon>	received_input_word
+[1025]inputPort_2_Daemon>		input_word		:= 0x00000005
+[1026]inputPort_2_Daemon>	new_packet_summary
+[1026]inputPort_2_Daemon>		dest_id		:= 0x00
+[1026]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1026]inputPort_2_Daemon>		seq_id		:= 0x05
+[1027]inputPort_2_Daemon>	write_status
+[1027]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1027]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1027]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1027]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1027]inputPort_2_Daemon>		data_to_outport		:= 0x100000005
+[1027]inputPort_2_Daemon>		new_packet		:= 0x0
+[1027]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1027]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1027]inputPort_2_Daemon>		count_down		:= 0x0033
+[1028]inputPort_2_Daemon>	received_input_word
+[1028]inputPort_2_Daemon>		input_word		:= 0x00000006
+[1029]inputPort_2_Daemon>	new_packet_summary
+[1029]inputPort_2_Daemon>		dest_id		:= 0x00
+[1029]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1029]inputPort_2_Daemon>		seq_id		:= 0x06
+[1030]inputPort_2_Daemon>	write_status
+[1030]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1030]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1030]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1030]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1030]inputPort_2_Daemon>		data_to_outport		:= 0x100000006
+[1030]inputPort_2_Daemon>		new_packet		:= 0x0
+[1030]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1030]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1030]inputPort_2_Daemon>		count_down		:= 0x0032
+[1031]inputPort_2_Daemon>	received_input_word
+[1031]inputPort_2_Daemon>		input_word		:= 0x00000007
+[1032]inputPort_2_Daemon>	new_packet_summary
+[1032]inputPort_2_Daemon>		dest_id		:= 0x00
+[1032]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1032]inputPort_2_Daemon>		seq_id		:= 0x07
+[1033]inputPort_2_Daemon>	write_status
+[1033]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1033]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1033]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1033]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1033]inputPort_2_Daemon>		data_to_outport		:= 0x100000007
+[1033]inputPort_2_Daemon>		new_packet		:= 0x0
+[1033]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1033]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1033]inputPort_2_Daemon>		count_down		:= 0x0031
+[1034]inputPort_2_Daemon>	received_input_word
+[1034]inputPort_2_Daemon>		input_word		:= 0x00000008
+[1035]inputPort_2_Daemon>	new_packet_summary
+[1035]inputPort_2_Daemon>		dest_id		:= 0x00
+[1035]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1035]inputPort_2_Daemon>		seq_id		:= 0x08
+[1036]inputPort_2_Daemon>	write_status
+[1036]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1036]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1036]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1036]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1036]inputPort_2_Daemon>		data_to_outport		:= 0x100000008
+[1036]inputPort_2_Daemon>		new_packet		:= 0x0
+[1036]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1036]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1036]inputPort_2_Daemon>		count_down		:= 0x0030
+[1037]inputPort_2_Daemon>	received_input_word
+[1037]inputPort_2_Daemon>		input_word		:= 0x00000009
+[1038]inputPort_2_Daemon>	new_packet_summary
+[1038]inputPort_2_Daemon>		dest_id		:= 0x00
+[1038]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1038]inputPort_2_Daemon>		seq_id		:= 0x09
+[1039]inputPort_2_Daemon>	write_status
+[1039]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1039]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1039]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1039]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1039]inputPort_2_Daemon>		data_to_outport		:= 0x100000009
+[1039]inputPort_2_Daemon>		new_packet		:= 0x0
+[1039]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1039]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1039]inputPort_2_Daemon>		count_down		:= 0x002f
+[1040]inputPort_2_Daemon>	received_input_word
+[1040]inputPort_2_Daemon>		input_word		:= 0x0000000a
+[1041]inputPort_2_Daemon>	new_packet_summary
+[1041]inputPort_2_Daemon>		dest_id		:= 0x00
+[1041]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1041]inputPort_2_Daemon>		seq_id		:= 0x0a
+[1042]inputPort_2_Daemon>	write_status
+[1042]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1042]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1042]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1042]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1042]inputPort_2_Daemon>		data_to_outport		:= 0x10000000a
+[1042]inputPort_2_Daemon>		new_packet		:= 0x0
+[1042]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1042]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1042]inputPort_2_Daemon>		count_down		:= 0x002e
+[1043]inputPort_2_Daemon>	received_input_word
+[1043]inputPort_2_Daemon>		input_word		:= 0x0000000b
+[1044]inputPort_2_Daemon>	new_packet_summary
+[1044]inputPort_2_Daemon>		dest_id		:= 0x00
+[1044]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1044]inputPort_2_Daemon>		seq_id		:= 0x0b
+[1045]inputPort_2_Daemon>	write_status
+[1045]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1045]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1045]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1045]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1045]inputPort_2_Daemon>		data_to_outport		:= 0x10000000b
+[1045]inputPort_2_Daemon>		new_packet		:= 0x0
+[1045]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1045]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1045]inputPort_2_Daemon>		count_down		:= 0x002d
+[1046]inputPort_2_Daemon>	received_input_word
+[1046]inputPort_2_Daemon>		input_word		:= 0x0000000c
+[1047]inputPort_2_Daemon>	new_packet_summary
+[1047]inputPort_2_Daemon>		dest_id		:= 0x00
+[1047]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1047]inputPort_2_Daemon>		seq_id		:= 0x0c
+[1048]inputPort_2_Daemon>	write_status
+[1048]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1048]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1048]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1048]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1048]inputPort_2_Daemon>		data_to_outport		:= 0x10000000c
+[1048]inputPort_2_Daemon>		new_packet		:= 0x0
+[1048]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1048]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1048]inputPort_2_Daemon>		count_down		:= 0x002c
+[1049]inputPort_2_Daemon>	received_input_word
+[1049]inputPort_2_Daemon>		input_word		:= 0x0000000d
+[1050]inputPort_2_Daemon>	new_packet_summary
+[1050]inputPort_2_Daemon>		dest_id		:= 0x00
+[1050]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1050]inputPort_2_Daemon>		seq_id		:= 0x0d
+[1051]inputPort_2_Daemon>	write_status
+[1051]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1051]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1051]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1051]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1051]inputPort_2_Daemon>		data_to_outport		:= 0x10000000d
+[1051]inputPort_2_Daemon>		new_packet		:= 0x0
+[1051]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1051]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1051]inputPort_2_Daemon>		count_down		:= 0x002b
+[1052]inputPort_2_Daemon>	received_input_word
+[1052]inputPort_2_Daemon>		input_word		:= 0x0000000e
+[1053]inputPort_2_Daemon>	new_packet_summary
+[1053]inputPort_2_Daemon>		dest_id		:= 0x00
+[1053]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1053]inputPort_2_Daemon>		seq_id		:= 0x0e
+[1054]inputPort_2_Daemon>	write_status
+[1054]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1054]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1054]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1054]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1054]inputPort_2_Daemon>		data_to_outport		:= 0x10000000e
+[1054]inputPort_2_Daemon>		new_packet		:= 0x0
+[1054]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1054]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1054]inputPort_2_Daemon>		count_down		:= 0x002a
+[1055]inputPort_2_Daemon>	received_input_word
+[1055]inputPort_2_Daemon>		input_word		:= 0x0000000f
+[1056]inputPort_2_Daemon>	new_packet_summary
+[1056]inputPort_2_Daemon>		dest_id		:= 0x00
+[1056]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1056]inputPort_2_Daemon>		seq_id		:= 0x0f
+[1057]inputPort_2_Daemon>	write_status
+[1057]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1057]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1057]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1057]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1057]inputPort_2_Daemon>		data_to_outport		:= 0x10000000f
+[1057]inputPort_2_Daemon>		new_packet		:= 0x0
+[1057]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1057]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1057]inputPort_2_Daemon>		count_down		:= 0x0029
+[1058]inputPort_2_Daemon>	received_input_word
+[1058]inputPort_2_Daemon>		input_word		:= 0x00000010
+[1059]inputPort_2_Daemon>	new_packet_summary
+[1059]inputPort_2_Daemon>		dest_id		:= 0x00
+[1059]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1059]inputPort_2_Daemon>		seq_id		:= 0x10
+[1060]inputPort_2_Daemon>	write_status
+[1060]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1060]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1060]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1060]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1060]inputPort_2_Daemon>		data_to_outport		:= 0x100000010
+[1060]inputPort_2_Daemon>		new_packet		:= 0x0
+[1060]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1060]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1060]inputPort_2_Daemon>		count_down		:= 0x0028
+[1061]inputPort_2_Daemon>	received_input_word
+[1061]inputPort_2_Daemon>		input_word		:= 0x00000011
+[1062]inputPort_2_Daemon>	new_packet_summary
+[1062]inputPort_2_Daemon>		dest_id		:= 0x00
+[1062]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1062]inputPort_2_Daemon>		seq_id		:= 0x11
+[1063]inputPort_2_Daemon>	write_status
+[1063]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1063]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1063]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1063]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1063]inputPort_2_Daemon>		data_to_outport		:= 0x100000011
+[1063]inputPort_2_Daemon>		new_packet		:= 0x0
+[1063]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1063]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1063]inputPort_2_Daemon>		count_down		:= 0x0027
+[1064]inputPort_2_Daemon>	received_input_word
+[1064]inputPort_2_Daemon>		input_word		:= 0x00000012
+[1065]inputPort_2_Daemon>	new_packet_summary
+[1065]inputPort_2_Daemon>		dest_id		:= 0x00
+[1065]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1065]inputPort_2_Daemon>		seq_id		:= 0x12
+[1066]inputPort_2_Daemon>	write_status
+[1066]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1066]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1066]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1066]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1066]inputPort_2_Daemon>		data_to_outport		:= 0x100000012
+[1066]inputPort_2_Daemon>		new_packet		:= 0x0
+[1066]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1066]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1066]inputPort_2_Daemon>		count_down		:= 0x0026
+[1067]inputPort_2_Daemon>	received_input_word
+[1067]inputPort_2_Daemon>		input_word		:= 0x00000013
+[1068]inputPort_2_Daemon>	new_packet_summary
+[1068]inputPort_2_Daemon>		dest_id		:= 0x00
+[1068]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1068]inputPort_2_Daemon>		seq_id		:= 0x13
+[1069]inputPort_2_Daemon>	write_status
+[1069]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1069]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1069]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1069]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1069]inputPort_2_Daemon>		data_to_outport		:= 0x100000013
+[1069]inputPort_2_Daemon>		new_packet		:= 0x0
+[1069]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1069]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1069]inputPort_2_Daemon>		count_down		:= 0x0025
+[1070]inputPort_2_Daemon>	received_input_word
+[1070]inputPort_2_Daemon>		input_word		:= 0x00000014
+[1071]inputPort_2_Daemon>	new_packet_summary
+[1071]inputPort_2_Daemon>		dest_id		:= 0x00
+[1071]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1071]inputPort_2_Daemon>		seq_id		:= 0x14
+[1072]inputPort_2_Daemon>	write_status
+[1072]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1072]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1072]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1072]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1072]inputPort_2_Daemon>		data_to_outport		:= 0x100000014
+[1072]inputPort_2_Daemon>		new_packet		:= 0x0
+[1072]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1072]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1072]inputPort_2_Daemon>		count_down		:= 0x0024
+[1073]inputPort_2_Daemon>	received_input_word
+[1073]inputPort_2_Daemon>		input_word		:= 0x00000015
+[1074]inputPort_2_Daemon>	new_packet_summary
+[1074]inputPort_2_Daemon>		dest_id		:= 0x00
+[1074]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1074]inputPort_2_Daemon>		seq_id		:= 0x15
+[1075]inputPort_2_Daemon>	write_status
+[1075]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1075]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1075]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1075]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1075]inputPort_2_Daemon>		data_to_outport		:= 0x100000015
+[1075]inputPort_2_Daemon>		new_packet		:= 0x0
+[1075]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1075]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1075]inputPort_2_Daemon>		count_down		:= 0x0023
+[1076]inputPort_2_Daemon>	received_input_word
+[1076]inputPort_2_Daemon>		input_word		:= 0x00000016
+[1077]inputPort_2_Daemon>	new_packet_summary
+[1077]inputPort_2_Daemon>		dest_id		:= 0x00
+[1077]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1077]inputPort_2_Daemon>		seq_id		:= 0x16
+[1078]inputPort_2_Daemon>	write_status
+[1078]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1078]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1078]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1078]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1078]inputPort_2_Daemon>		data_to_outport		:= 0x100000016
+[1078]inputPort_2_Daemon>		new_packet		:= 0x0
+[1078]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1078]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1078]inputPort_2_Daemon>		count_down		:= 0x0022
+[1079]inputPort_2_Daemon>	received_input_word
+[1079]inputPort_2_Daemon>		input_word		:= 0x00000017
+[1080]inputPort_2_Daemon>	new_packet_summary
+[1080]inputPort_2_Daemon>		dest_id		:= 0x00
+[1080]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1080]inputPort_2_Daemon>		seq_id		:= 0x17
+[1081]inputPort_2_Daemon>	write_status
+[1081]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1081]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1081]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1081]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1081]inputPort_2_Daemon>		data_to_outport		:= 0x100000017
+[1081]inputPort_2_Daemon>		new_packet		:= 0x0
+[1081]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1081]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1081]inputPort_2_Daemon>		count_down		:= 0x0021
+[1082]inputPort_2_Daemon>	received_input_word
+[1082]inputPort_2_Daemon>		input_word		:= 0x00000018
+[1083]inputPort_2_Daemon>	new_packet_summary
+[1083]inputPort_2_Daemon>		dest_id		:= 0x00
+[1083]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1083]inputPort_2_Daemon>		seq_id		:= 0x18
+[1084]inputPort_2_Daemon>	write_status
+[1084]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1084]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1084]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1084]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1084]inputPort_2_Daemon>		data_to_outport		:= 0x100000018
+[1084]inputPort_2_Daemon>		new_packet		:= 0x0
+[1084]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1084]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1084]inputPort_2_Daemon>		count_down		:= 0x0020
+[1085]inputPort_2_Daemon>	received_input_word
+[1085]inputPort_2_Daemon>		input_word		:= 0x00000019
+[1086]inputPort_2_Daemon>	new_packet_summary
+[1086]inputPort_2_Daemon>		dest_id		:= 0x00
+[1086]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1086]inputPort_2_Daemon>		seq_id		:= 0x19
+[1087]inputPort_2_Daemon>	write_status
+[1087]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1087]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1087]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1087]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1087]inputPort_2_Daemon>		data_to_outport		:= 0x100000019
+[1087]inputPort_2_Daemon>		new_packet		:= 0x0
+[1087]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1087]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1087]inputPort_2_Daemon>		count_down		:= 0x001f
+[1088]inputPort_2_Daemon>	received_input_word
+[1088]inputPort_2_Daemon>		input_word		:= 0x0000001a
+[1089]inputPort_2_Daemon>	new_packet_summary
+[1089]inputPort_2_Daemon>		dest_id		:= 0x00
+[1089]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1089]inputPort_2_Daemon>		seq_id		:= 0x1a
+[1090]inputPort_2_Daemon>	write_status
+[1090]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1090]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1090]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1090]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1090]inputPort_2_Daemon>		data_to_outport		:= 0x10000001a
+[1090]inputPort_2_Daemon>		new_packet		:= 0x0
+[1090]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1090]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1090]inputPort_2_Daemon>		count_down		:= 0x001e
+[1091]inputPort_2_Daemon>	received_input_word
+[1091]inputPort_2_Daemon>		input_word		:= 0x0000001b
+[1092]inputPort_2_Daemon>	new_packet_summary
+[1092]inputPort_2_Daemon>		dest_id		:= 0x00
+[1092]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1092]inputPort_2_Daemon>		seq_id		:= 0x1b
+[1093]inputPort_2_Daemon>	write_status
+[1093]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1093]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1093]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1093]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1093]inputPort_2_Daemon>		data_to_outport		:= 0x10000001b
+[1093]inputPort_2_Daemon>		new_packet		:= 0x0
+[1093]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1093]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1093]inputPort_2_Daemon>		count_down		:= 0x001d
+[1094]inputPort_2_Daemon>	received_input_word
+[1094]inputPort_2_Daemon>		input_word		:= 0x0000001c
+[1095]inputPort_2_Daemon>	new_packet_summary
+[1095]inputPort_2_Daemon>		dest_id		:= 0x00
+[1095]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1095]inputPort_2_Daemon>		seq_id		:= 0x1c
+[1096]inputPort_2_Daemon>	write_status
+[1096]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1096]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1096]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1096]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1096]inputPort_2_Daemon>		data_to_outport		:= 0x10000001c
+[1096]inputPort_2_Daemon>		new_packet		:= 0x0
+[1096]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1096]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1096]inputPort_2_Daemon>		count_down		:= 0x001c
+[1097]inputPort_2_Daemon>	received_input_word
+[1097]inputPort_2_Daemon>		input_word		:= 0x0000001d
+[1098]inputPort_2_Daemon>	new_packet_summary
+[1098]inputPort_2_Daemon>		dest_id		:= 0x00
+[1098]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1098]inputPort_2_Daemon>		seq_id		:= 0x1d
+[1099]inputPort_2_Daemon>	write_status
+[1099]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1099]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1099]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1099]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1099]inputPort_2_Daemon>		data_to_outport		:= 0x10000001d
+[1099]inputPort_2_Daemon>		new_packet		:= 0x0
+[1099]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1099]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1099]inputPort_2_Daemon>		count_down		:= 0x001b
+[1100]inputPort_2_Daemon>	received_input_word
+[1100]inputPort_2_Daemon>		input_word		:= 0x0000001e
+[1101]inputPort_2_Daemon>	new_packet_summary
+[1101]inputPort_2_Daemon>		dest_id		:= 0x00
+[1101]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1101]inputPort_2_Daemon>		seq_id		:= 0x1e
+[1102]inputPort_2_Daemon>	write_status
+[1102]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1102]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1102]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1102]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1102]inputPort_2_Daemon>		data_to_outport		:= 0x10000001e
+[1102]inputPort_2_Daemon>		new_packet		:= 0x0
+[1102]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1102]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1102]inputPort_2_Daemon>		count_down		:= 0x001a
+[1103]inputPort_2_Daemon>	received_input_word
+[1103]inputPort_2_Daemon>		input_word		:= 0x0000001f
+[1104]inputPort_2_Daemon>	new_packet_summary
+[1104]inputPort_2_Daemon>		dest_id		:= 0x00
+[1104]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1104]inputPort_2_Daemon>		seq_id		:= 0x1f
+[1105]inputPort_2_Daemon>	write_status
+[1105]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1105]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1105]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1105]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1105]inputPort_2_Daemon>		data_to_outport		:= 0x10000001f
+[1105]inputPort_2_Daemon>		new_packet		:= 0x0
+[1105]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1105]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1105]inputPort_2_Daemon>		count_down		:= 0x0019
+[1106]inputPort_2_Daemon>	received_input_word
+[1106]inputPort_2_Daemon>		input_word		:= 0x00000020
+[1107]inputPort_2_Daemon>	new_packet_summary
+[1107]inputPort_2_Daemon>		dest_id		:= 0x00
+[1107]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1107]inputPort_2_Daemon>		seq_id		:= 0x20
+[1108]inputPort_2_Daemon>	write_status
+[1108]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1108]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1108]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1108]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1108]inputPort_2_Daemon>		data_to_outport		:= 0x100000020
+[1108]inputPort_2_Daemon>		new_packet		:= 0x0
+[1108]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1108]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1108]inputPort_2_Daemon>		count_down		:= 0x0018
+[1109]inputPort_2_Daemon>	received_input_word
+[1109]inputPort_2_Daemon>		input_word		:= 0x00000021
+[1110]inputPort_2_Daemon>	new_packet_summary
+[1110]inputPort_2_Daemon>		dest_id		:= 0x00
+[1110]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1110]inputPort_2_Daemon>		seq_id		:= 0x21
+[1111]inputPort_2_Daemon>	write_status
+[1111]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1111]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1111]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1111]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1111]inputPort_2_Daemon>		data_to_outport		:= 0x100000021
+[1111]inputPort_2_Daemon>		new_packet		:= 0x0
+[1111]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1111]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1111]inputPort_2_Daemon>		count_down		:= 0x0017
+[1112]inputPort_2_Daemon>	received_input_word
+[1112]inputPort_2_Daemon>		input_word		:= 0x00000022
+[1113]inputPort_2_Daemon>	new_packet_summary
+[1113]inputPort_2_Daemon>		dest_id		:= 0x00
+[1113]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1113]inputPort_2_Daemon>		seq_id		:= 0x22
+[1114]inputPort_2_Daemon>	write_status
+[1114]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1114]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1114]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1114]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1114]inputPort_2_Daemon>		data_to_outport		:= 0x100000022
+[1114]inputPort_2_Daemon>		new_packet		:= 0x0
+[1114]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1114]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1114]inputPort_2_Daemon>		count_down		:= 0x0016
+[1115]inputPort_2_Daemon>	received_input_word
+[1115]inputPort_2_Daemon>		input_word		:= 0x00000023
+[1116]inputPort_2_Daemon>	new_packet_summary
+[1116]inputPort_2_Daemon>		dest_id		:= 0x00
+[1116]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1116]inputPort_2_Daemon>		seq_id		:= 0x23
+[1117]inputPort_2_Daemon>	write_status
+[1117]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1117]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1117]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1117]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1117]inputPort_2_Daemon>		data_to_outport		:= 0x100000023
+[1117]inputPort_2_Daemon>		new_packet		:= 0x0
+[1117]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1117]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1117]inputPort_2_Daemon>		count_down		:= 0x0015
+[1118]inputPort_2_Daemon>	received_input_word
+[1118]inputPort_2_Daemon>		input_word		:= 0x00000024
+[1119]inputPort_2_Daemon>	new_packet_summary
+[1119]inputPort_2_Daemon>		dest_id		:= 0x00
+[1119]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1119]inputPort_2_Daemon>		seq_id		:= 0x24
+[1120]inputPort_2_Daemon>	write_status
+[1120]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1120]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1120]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1120]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1120]inputPort_2_Daemon>		data_to_outport		:= 0x100000024
+[1120]inputPort_2_Daemon>		new_packet		:= 0x0
+[1120]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1120]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1120]inputPort_2_Daemon>		count_down		:= 0x0014
+[1121]inputPort_2_Daemon>	received_input_word
+[1121]inputPort_2_Daemon>		input_word		:= 0x00000025
+[1122]inputPort_2_Daemon>	new_packet_summary
+[1122]inputPort_2_Daemon>		dest_id		:= 0x00
+[1122]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1122]inputPort_2_Daemon>		seq_id		:= 0x25
+[1123]inputPort_2_Daemon>	write_status
+[1123]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1123]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1123]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1123]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1123]inputPort_2_Daemon>		data_to_outport		:= 0x100000025
+[1123]inputPort_2_Daemon>		new_packet		:= 0x0
+[1123]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1123]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1123]inputPort_2_Daemon>		count_down		:= 0x0013
+[1124]inputPort_2_Daemon>	received_input_word
+[1124]inputPort_2_Daemon>		input_word		:= 0x00000026
+[1125]inputPort_2_Daemon>	new_packet_summary
+[1125]inputPort_2_Daemon>		dest_id		:= 0x00
+[1125]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1125]inputPort_2_Daemon>		seq_id		:= 0x26
+[1126]inputPort_2_Daemon>	write_status
+[1126]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1126]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1126]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1126]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1126]inputPort_2_Daemon>		data_to_outport		:= 0x100000026
+[1126]inputPort_2_Daemon>		new_packet		:= 0x0
+[1126]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1126]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1126]inputPort_2_Daemon>		count_down		:= 0x0012
+[1138]inputPort_2_Daemon>	received_input_word
+[1138]inputPort_2_Daemon>		input_word		:= 0x00000027
+[1139]inputPort_2_Daemon>	new_packet_summary
+[1139]inputPort_2_Daemon>		dest_id		:= 0x00
+[1139]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1139]inputPort_2_Daemon>		seq_id		:= 0x27
+[1156]inputPort_2_Daemon>	write_status
+[1156]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1156]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1156]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1156]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1156]inputPort_2_Daemon>		data_to_outport		:= 0x100000027
+[1156]inputPort_2_Daemon>		new_packet		:= 0x0
+[1156]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1156]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1156]inputPort_2_Daemon>		count_down		:= 0x0011
+[1157]inputPort_2_Daemon>	received_input_word
+[1157]inputPort_2_Daemon>		input_word		:= 0x00000028
+[1158]inputPort_2_Daemon>	new_packet_summary
+[1158]inputPort_2_Daemon>		dest_id		:= 0x00
+[1158]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1158]inputPort_2_Daemon>		seq_id		:= 0x28
+[1159]inputPort_2_Daemon>	write_status
+[1159]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1159]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1159]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1159]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1159]inputPort_2_Daemon>		data_to_outport		:= 0x100000028
+[1159]inputPort_2_Daemon>		new_packet		:= 0x0
+[1159]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1159]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1159]inputPort_2_Daemon>		count_down		:= 0x0010
+[1160]inputPort_2_Daemon>	received_input_word
+[1160]inputPort_2_Daemon>		input_word		:= 0x00000029
+[1182]inputPort_2_Daemon>	new_packet_summary
+[1182]inputPort_2_Daemon>		dest_id		:= 0x00
+[1182]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1182]inputPort_2_Daemon>		seq_id		:= 0x29
+[1183]inputPort_2_Daemon>	write_status
+[1183]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1183]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1183]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1183]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1183]inputPort_2_Daemon>		data_to_outport		:= 0x100000029
+[1183]inputPort_2_Daemon>		new_packet		:= 0x0
+[1183]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1183]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1183]inputPort_2_Daemon>		count_down		:= 0x000f
+[1184]inputPort_2_Daemon>	received_input_word
+[1184]inputPort_2_Daemon>		input_word		:= 0x0000002a
+[1185]inputPort_2_Daemon>	new_packet_summary
+[1185]inputPort_2_Daemon>		dest_id		:= 0x00
+[1185]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1185]inputPort_2_Daemon>		seq_id		:= 0x2a
+[1186]inputPort_2_Daemon>	write_status
+[1186]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1186]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1186]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1186]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1186]inputPort_2_Daemon>		data_to_outport		:= 0x10000002a
+[1186]inputPort_2_Daemon>		new_packet		:= 0x0
+[1186]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1186]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1186]inputPort_2_Daemon>		count_down		:= 0x000e
+[1187]inputPort_2_Daemon>	received_input_word
+[1187]inputPort_2_Daemon>		input_word		:= 0x0000002b
+[1188]inputPort_2_Daemon>	new_packet_summary
+[1188]inputPort_2_Daemon>		dest_id		:= 0x00
+[1188]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1188]inputPort_2_Daemon>		seq_id		:= 0x2b
+[1210]inputPort_2_Daemon>	write_status
+[1210]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1210]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1210]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1210]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1210]inputPort_2_Daemon>		data_to_outport		:= 0x10000002b
+[1210]inputPort_2_Daemon>		new_packet		:= 0x0
+[1210]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1210]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1210]inputPort_2_Daemon>		count_down		:= 0x000d
+[1211]inputPort_2_Daemon>	received_input_word
+[1211]inputPort_2_Daemon>		input_word		:= 0x0000002c
+[1212]inputPort_2_Daemon>	new_packet_summary
+[1212]inputPort_2_Daemon>		dest_id		:= 0x00
+[1212]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1212]inputPort_2_Daemon>		seq_id		:= 0x2c
+[1213]inputPort_2_Daemon>	write_status
+[1213]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1213]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1213]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1213]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1213]inputPort_2_Daemon>		data_to_outport		:= 0x10000002c
+[1213]inputPort_2_Daemon>		new_packet		:= 0x0
+[1213]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1213]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1213]inputPort_2_Daemon>		count_down		:= 0x000c
+[1214]inputPort_2_Daemon>	received_input_word
+[1214]inputPort_2_Daemon>		input_word		:= 0x0000002d
+[1215]inputPort_2_Daemon>	new_packet_summary
+[1215]inputPort_2_Daemon>		dest_id		:= 0x00
+[1215]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1215]inputPort_2_Daemon>		seq_id		:= 0x2d
+[1216]inputPort_2_Daemon>	write_status
+[1216]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1216]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1216]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1216]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1216]inputPort_2_Daemon>		data_to_outport		:= 0x10000002d
+[1216]inputPort_2_Daemon>		new_packet		:= 0x0
+[1216]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1216]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1216]inputPort_2_Daemon>		count_down		:= 0x000b
+[1374]inputPort_2_Daemon>	received_input_word
+[1374]inputPort_2_Daemon>		input_word		:= 0x0000002e
+[1375]inputPort_2_Daemon>	new_packet_summary
+[1375]inputPort_2_Daemon>		dest_id		:= 0x00
+[1375]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1375]inputPort_2_Daemon>		seq_id		:= 0x2e
+[1376]inputPort_2_Daemon>	write_status
+[1376]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1376]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1376]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1376]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1376]inputPort_2_Daemon>		data_to_outport		:= 0x10000002e
+[1376]inputPort_2_Daemon>		new_packet		:= 0x0
+[1376]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1376]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1376]inputPort_2_Daemon>		count_down		:= 0x000a
+[1377]inputPort_2_Daemon>	received_input_word
+[1377]inputPort_2_Daemon>		input_word		:= 0x0000002f
+[1378]inputPort_2_Daemon>	new_packet_summary
+[1378]inputPort_2_Daemon>		dest_id		:= 0x00
+[1378]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1378]inputPort_2_Daemon>		seq_id		:= 0x2f
+[1379]inputPort_2_Daemon>	write_status
+[1379]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1379]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1379]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1379]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1379]inputPort_2_Daemon>		data_to_outport		:= 0x10000002f
+[1379]inputPort_2_Daemon>		new_packet		:= 0x0
+[1379]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1379]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1379]inputPort_2_Daemon>		count_down		:= 0x0009
+[1380]inputPort_2_Daemon>	received_input_word
+[1380]inputPort_2_Daemon>		input_word		:= 0x00000030
+[1381]inputPort_2_Daemon>	new_packet_summary
+[1381]inputPort_2_Daemon>		dest_id		:= 0x00
+[1381]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1381]inputPort_2_Daemon>		seq_id		:= 0x30
+[1382]inputPort_2_Daemon>	write_status
+[1382]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1382]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1382]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1382]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1382]inputPort_2_Daemon>		data_to_outport		:= 0x100000030
+[1382]inputPort_2_Daemon>		new_packet		:= 0x0
+[1382]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1382]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1382]inputPort_2_Daemon>		count_down		:= 0x0008
+[1550]inputPort_2_Daemon>	received_input_word
+[1550]inputPort_2_Daemon>		input_word		:= 0x00000031
+[1552]inputPort_2_Daemon>	new_packet_summary
+[1552]inputPort_2_Daemon>		dest_id		:= 0x00
+[1552]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1552]inputPort_2_Daemon>		seq_id		:= 0x31
+[1553]inputPort_2_Daemon>	write_status
+[1553]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1553]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1553]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1553]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1553]inputPort_2_Daemon>		data_to_outport		:= 0x100000031
+[1553]inputPort_2_Daemon>		new_packet		:= 0x0
+[1553]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1553]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1553]inputPort_2_Daemon>		count_down		:= 0x0007
+[1556]inputPort_2_Daemon>	received_input_word
+[1556]inputPort_2_Daemon>		input_word		:= 0x00000032
+[1557]inputPort_2_Daemon>	new_packet_summary
+[1557]inputPort_2_Daemon>		dest_id		:= 0x00
+[1557]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1557]inputPort_2_Daemon>		seq_id		:= 0x32
+[1558]inputPort_2_Daemon>	write_status
+[1558]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1558]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1558]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1558]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1558]inputPort_2_Daemon>		data_to_outport		:= 0x100000032
+[1558]inputPort_2_Daemon>		new_packet		:= 0x0
+[1558]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1558]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1558]inputPort_2_Daemon>		count_down		:= 0x0006
+[1559]inputPort_2_Daemon>	received_input_word
+[1559]inputPort_2_Daemon>		input_word		:= 0x00000033
+[1560]inputPort_2_Daemon>	new_packet_summary
+[1560]inputPort_2_Daemon>		dest_id		:= 0x00
+[1560]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1560]inputPort_2_Daemon>		seq_id		:= 0x33
+[1561]inputPort_2_Daemon>	write_status
+[1561]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1561]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1561]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1561]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1561]inputPort_2_Daemon>		data_to_outport		:= 0x100000033
+[1561]inputPort_2_Daemon>		new_packet		:= 0x0
+[1561]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1561]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1561]inputPort_2_Daemon>		count_down		:= 0x0005
+[1566]inputPort_2_Daemon>	received_input_word
+[1566]inputPort_2_Daemon>		input_word		:= 0x00000034
+[1577]inputPort_2_Daemon>	new_packet_summary
+[1577]inputPort_2_Daemon>		dest_id		:= 0x00
+[1577]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1577]inputPort_2_Daemon>		seq_id		:= 0x34
+[1578]inputPort_2_Daemon>	write_status
+[1578]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1578]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1578]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1578]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1578]inputPort_2_Daemon>		data_to_outport		:= 0x100000034
+[1578]inputPort_2_Daemon>		new_packet		:= 0x0
+[1578]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1578]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1578]inputPort_2_Daemon>		count_down		:= 0x0004
+[1594]inputPort_2_Daemon>	received_input_word
+[1594]inputPort_2_Daemon>		input_word		:= 0x00000035
+[1600]inputPort_2_Daemon>	new_packet_summary
+[1600]inputPort_2_Daemon>		dest_id		:= 0x00
+[1600]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1600]inputPort_2_Daemon>		seq_id		:= 0x35
+[1630]inputPort_2_Daemon>	write_status
+[1630]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1630]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1630]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1630]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1630]inputPort_2_Daemon>		data_to_outport		:= 0x100000035
+[1630]inputPort_2_Daemon>		new_packet		:= 0x0
+[1630]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1630]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1630]inputPort_2_Daemon>		count_down		:= 0x0003
+[1631]inputPort_2_Daemon>	received_input_word
+[1631]inputPort_2_Daemon>		input_word		:= 0x00000036
+[1632]inputPort_2_Daemon>	new_packet_summary
+[1632]inputPort_2_Daemon>		dest_id		:= 0x00
+[1632]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1632]inputPort_2_Daemon>		seq_id		:= 0x36
+[1635]inputPort_2_Daemon>	write_status
+[1635]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1635]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1635]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1635]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1635]inputPort_2_Daemon>		data_to_outport		:= 0x100000036
+[1635]inputPort_2_Daemon>		new_packet		:= 0x0
+[1635]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1635]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1635]inputPort_2_Daemon>		count_down		:= 0x0002
+[1636]inputPort_2_Daemon>	received_input_word
+[1636]inputPort_2_Daemon>		input_word		:= 0x00000037
+[1637]inputPort_2_Daemon>	new_packet_summary
+[1637]inputPort_2_Daemon>		dest_id		:= 0x00
+[1637]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[1637]inputPort_2_Daemon>		seq_id		:= 0x37
+[1638]inputPort_2_Daemon>	write_status
+[1638]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1638]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1638]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1638]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1638]inputPort_2_Daemon>		data_to_outport		:= 0x100000037
+[1638]inputPort_2_Daemon>		new_packet		:= 0x0
+[1638]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1638]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1638]inputPort_2_Daemon>		count_down		:= 0x0001
+[1639]inputPort_2_Daemon>	received_input_word
+[1639]inputPort_2_Daemon>		input_word		:= 0x0300380a
+[1640]inputPort_2_Daemon>	new_packet_summary
+[1640]inputPort_2_Daemon>		dest_id		:= 0x03
+[1640]inputPort_2_Daemon>		pkt_length		:= 0x0038
+[1640]inputPort_2_Daemon>		seq_id		:= 0x0a
+[1641]inputPort_2_Daemon>	write_status
+[1641]inputPort_2_Daemon>		send_to_1		:= 0x0
+[1641]inputPort_2_Daemon>		send_to_2		:= 0x0
+[1641]inputPort_2_Daemon>		send_to_3		:= 0x1
+[1641]inputPort_2_Daemon>		send_to_4		:= 0x0
+[1641]inputPort_2_Daemon>		data_to_outport		:= 0x10300380a
+[1641]inputPort_2_Daemon>		new_packet		:= 0x1
+[1641]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[1641]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[1641]inputPort_2_Daemon>		count_down		:= 0x0000
+[2334]inputPort_2_Daemon>	received_input_word
+[2334]inputPort_2_Daemon>		input_word		:= 0x00000001
+[2335]inputPort_2_Daemon>	new_packet_summary
+[2335]inputPort_2_Daemon>		dest_id		:= 0x00
+[2335]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2335]inputPort_2_Daemon>		seq_id		:= 0x01
+[2336]inputPort_2_Daemon>	write_status
+[2336]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2336]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2336]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2336]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2336]inputPort_2_Daemon>		data_to_outport		:= 0x100000001
+[2336]inputPort_2_Daemon>		new_packet		:= 0x0
+[2336]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2336]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2336]inputPort_2_Daemon>		count_down		:= 0x0037
+[2337]inputPort_2_Daemon>	received_input_word
+[2337]inputPort_2_Daemon>		input_word		:= 0x00000002
+[2338]inputPort_2_Daemon>	new_packet_summary
+[2338]inputPort_2_Daemon>		dest_id		:= 0x00
+[2338]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2338]inputPort_2_Daemon>		seq_id		:= 0x02
+[2339]inputPort_2_Daemon>	write_status
+[2339]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2339]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2339]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2339]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2339]inputPort_2_Daemon>		data_to_outport		:= 0x100000002
+[2339]inputPort_2_Daemon>		new_packet		:= 0x0
+[2339]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2339]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2339]inputPort_2_Daemon>		count_down		:= 0x0036
+[2340]inputPort_2_Daemon>	received_input_word
+[2340]inputPort_2_Daemon>		input_word		:= 0x00000003
+[2341]inputPort_2_Daemon>	new_packet_summary
+[2341]inputPort_2_Daemon>		dest_id		:= 0x00
+[2341]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2341]inputPort_2_Daemon>		seq_id		:= 0x03
+[2342]inputPort_2_Daemon>	write_status
+[2342]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2342]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2342]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2342]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2342]inputPort_2_Daemon>		data_to_outport		:= 0x100000003
+[2342]inputPort_2_Daemon>		new_packet		:= 0x0
+[2342]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2342]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2342]inputPort_2_Daemon>		count_down		:= 0x0035
+[2362]inputPort_2_Daemon>	received_input_word
+[2362]inputPort_2_Daemon>		input_word		:= 0x00000004
+[2363]inputPort_2_Daemon>	new_packet_summary
+[2363]inputPort_2_Daemon>		dest_id		:= 0x00
+[2363]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2363]inputPort_2_Daemon>		seq_id		:= 0x04
+[2468]inputPort_2_Daemon>	write_status
+[2468]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2468]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2468]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2468]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2468]inputPort_2_Daemon>		data_to_outport		:= 0x100000004
+[2468]inputPort_2_Daemon>		new_packet		:= 0x0
+[2468]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2468]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2468]inputPort_2_Daemon>		count_down		:= 0x0034
+[2469]inputPort_2_Daemon>	received_input_word
+[2469]inputPort_2_Daemon>		input_word		:= 0x00000005
+[2470]inputPort_2_Daemon>	new_packet_summary
+[2470]inputPort_2_Daemon>		dest_id		:= 0x00
+[2470]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2470]inputPort_2_Daemon>		seq_id		:= 0x05
+[2471]inputPort_2_Daemon>	write_status
+[2471]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2471]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2471]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2471]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2471]inputPort_2_Daemon>		data_to_outport		:= 0x100000005
+[2471]inputPort_2_Daemon>		new_packet		:= 0x0
+[2471]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2471]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2471]inputPort_2_Daemon>		count_down		:= 0x0033
+[2472]inputPort_2_Daemon>	received_input_word
+[2472]inputPort_2_Daemon>		input_word		:= 0x00000006
+[2473]inputPort_2_Daemon>	new_packet_summary
+[2473]inputPort_2_Daemon>		dest_id		:= 0x00
+[2473]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2473]inputPort_2_Daemon>		seq_id		:= 0x06
+[2474]inputPort_2_Daemon>	write_status
+[2474]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2474]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2474]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2474]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2474]inputPort_2_Daemon>		data_to_outport		:= 0x100000006
+[2474]inputPort_2_Daemon>		new_packet		:= 0x0
+[2474]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2474]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2474]inputPort_2_Daemon>		count_down		:= 0x0032
+[2475]inputPort_2_Daemon>	received_input_word
+[2475]inputPort_2_Daemon>		input_word		:= 0x00000007
+[2476]inputPort_2_Daemon>	new_packet_summary
+[2476]inputPort_2_Daemon>		dest_id		:= 0x00
+[2476]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2476]inputPort_2_Daemon>		seq_id		:= 0x07
+[2477]inputPort_2_Daemon>	write_status
+[2477]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2477]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2477]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2477]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2477]inputPort_2_Daemon>		data_to_outport		:= 0x100000007
+[2477]inputPort_2_Daemon>		new_packet		:= 0x0
+[2477]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2477]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2477]inputPort_2_Daemon>		count_down		:= 0x0031
+[2478]inputPort_2_Daemon>	received_input_word
+[2478]inputPort_2_Daemon>		input_word		:= 0x00000008
+[2479]inputPort_2_Daemon>	new_packet_summary
+[2479]inputPort_2_Daemon>		dest_id		:= 0x00
+[2479]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2479]inputPort_2_Daemon>		seq_id		:= 0x08
+[2480]inputPort_2_Daemon>	write_status
+[2480]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2480]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2480]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2480]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2480]inputPort_2_Daemon>		data_to_outport		:= 0x100000008
+[2480]inputPort_2_Daemon>		new_packet		:= 0x0
+[2480]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2480]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2480]inputPort_2_Daemon>		count_down		:= 0x0030
+[2481]inputPort_2_Daemon>	received_input_word
+[2481]inputPort_2_Daemon>		input_word		:= 0x00000009
+[2482]inputPort_2_Daemon>	new_packet_summary
+[2482]inputPort_2_Daemon>		dest_id		:= 0x00
+[2482]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2482]inputPort_2_Daemon>		seq_id		:= 0x09
+[2483]inputPort_2_Daemon>	write_status
+[2483]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2483]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2483]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2483]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2483]inputPort_2_Daemon>		data_to_outport		:= 0x100000009
+[2483]inputPort_2_Daemon>		new_packet		:= 0x0
+[2483]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2483]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2483]inputPort_2_Daemon>		count_down		:= 0x002f
+[2484]inputPort_2_Daemon>	received_input_word
+[2484]inputPort_2_Daemon>		input_word		:= 0x0000000a
+[2485]inputPort_2_Daemon>	new_packet_summary
+[2485]inputPort_2_Daemon>		dest_id		:= 0x00
+[2485]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2485]inputPort_2_Daemon>		seq_id		:= 0x0a
+[2486]inputPort_2_Daemon>	write_status
+[2486]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2486]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2486]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2486]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2486]inputPort_2_Daemon>		data_to_outport		:= 0x10000000a
+[2486]inputPort_2_Daemon>		new_packet		:= 0x0
+[2486]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2486]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2486]inputPort_2_Daemon>		count_down		:= 0x002e
+[2487]inputPort_2_Daemon>	received_input_word
+[2487]inputPort_2_Daemon>		input_word		:= 0x0000000b
+[2488]inputPort_2_Daemon>	new_packet_summary
+[2488]inputPort_2_Daemon>		dest_id		:= 0x00
+[2488]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2488]inputPort_2_Daemon>		seq_id		:= 0x0b
+[2489]inputPort_2_Daemon>	write_status
+[2489]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2489]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2489]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2489]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2489]inputPort_2_Daemon>		data_to_outport		:= 0x10000000b
+[2489]inputPort_2_Daemon>		new_packet		:= 0x0
+[2489]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2489]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2489]inputPort_2_Daemon>		count_down		:= 0x002d
+[2490]inputPort_2_Daemon>	received_input_word
+[2490]inputPort_2_Daemon>		input_word		:= 0x0000000c
+[2491]inputPort_2_Daemon>	new_packet_summary
+[2491]inputPort_2_Daemon>		dest_id		:= 0x00
+[2491]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2491]inputPort_2_Daemon>		seq_id		:= 0x0c
+[2492]inputPort_2_Daemon>	write_status
+[2492]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2492]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2492]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2492]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2492]inputPort_2_Daemon>		data_to_outport		:= 0x10000000c
+[2492]inputPort_2_Daemon>		new_packet		:= 0x0
+[2492]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2492]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2492]inputPort_2_Daemon>		count_down		:= 0x002c
+[2493]inputPort_2_Daemon>	received_input_word
+[2493]inputPort_2_Daemon>		input_word		:= 0x0000000d
+[2494]inputPort_2_Daemon>	new_packet_summary
+[2494]inputPort_2_Daemon>		dest_id		:= 0x00
+[2494]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2494]inputPort_2_Daemon>		seq_id		:= 0x0d
+[2495]inputPort_2_Daemon>	write_status
+[2495]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2495]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2495]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2495]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2495]inputPort_2_Daemon>		data_to_outport		:= 0x10000000d
+[2495]inputPort_2_Daemon>		new_packet		:= 0x0
+[2495]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2495]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2495]inputPort_2_Daemon>		count_down		:= 0x002b
+[2496]inputPort_2_Daemon>	received_input_word
+[2496]inputPort_2_Daemon>		input_word		:= 0x0000000e
+[2497]inputPort_2_Daemon>	new_packet_summary
+[2497]inputPort_2_Daemon>		dest_id		:= 0x00
+[2497]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2497]inputPort_2_Daemon>		seq_id		:= 0x0e
+[2498]inputPort_2_Daemon>	write_status
+[2498]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2498]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2498]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2498]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2498]inputPort_2_Daemon>		data_to_outport		:= 0x10000000e
+[2498]inputPort_2_Daemon>		new_packet		:= 0x0
+[2498]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2498]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2498]inputPort_2_Daemon>		count_down		:= 0x002a
+[2499]inputPort_2_Daemon>	received_input_word
+[2499]inputPort_2_Daemon>		input_word		:= 0x0000000f
+[2500]inputPort_2_Daemon>	new_packet_summary
+[2500]inputPort_2_Daemon>		dest_id		:= 0x00
+[2500]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2500]inputPort_2_Daemon>		seq_id		:= 0x0f
+[2501]inputPort_2_Daemon>	write_status
+[2501]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2501]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2501]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2501]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2501]inputPort_2_Daemon>		data_to_outport		:= 0x10000000f
+[2501]inputPort_2_Daemon>		new_packet		:= 0x0
+[2501]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2501]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2501]inputPort_2_Daemon>		count_down		:= 0x0029
+[2502]inputPort_2_Daemon>	received_input_word
+[2502]inputPort_2_Daemon>		input_word		:= 0x00000010
+[2503]inputPort_2_Daemon>	new_packet_summary
+[2503]inputPort_2_Daemon>		dest_id		:= 0x00
+[2503]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2503]inputPort_2_Daemon>		seq_id		:= 0x10
+[2504]inputPort_2_Daemon>	write_status
+[2504]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2504]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2504]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2504]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2504]inputPort_2_Daemon>		data_to_outport		:= 0x100000010
+[2504]inputPort_2_Daemon>		new_packet		:= 0x0
+[2504]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2504]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2504]inputPort_2_Daemon>		count_down		:= 0x0028
+[2505]inputPort_2_Daemon>	received_input_word
+[2505]inputPort_2_Daemon>		input_word		:= 0x00000011
+[2506]inputPort_2_Daemon>	new_packet_summary
+[2506]inputPort_2_Daemon>		dest_id		:= 0x00
+[2506]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2506]inputPort_2_Daemon>		seq_id		:= 0x11
+[2507]inputPort_2_Daemon>	write_status
+[2507]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2507]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2507]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2507]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2507]inputPort_2_Daemon>		data_to_outport		:= 0x100000011
+[2507]inputPort_2_Daemon>		new_packet		:= 0x0
+[2507]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2507]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2507]inputPort_2_Daemon>		count_down		:= 0x0027
+[2508]inputPort_2_Daemon>	received_input_word
+[2508]inputPort_2_Daemon>		input_word		:= 0x00000012
+[2509]inputPort_2_Daemon>	new_packet_summary
+[2509]inputPort_2_Daemon>		dest_id		:= 0x00
+[2509]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2509]inputPort_2_Daemon>		seq_id		:= 0x12
+[2510]inputPort_2_Daemon>	write_status
+[2510]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2510]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2510]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2510]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2510]inputPort_2_Daemon>		data_to_outport		:= 0x100000012
+[2510]inputPort_2_Daemon>		new_packet		:= 0x0
+[2510]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2510]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2510]inputPort_2_Daemon>		count_down		:= 0x0026
+[2511]inputPort_2_Daemon>	received_input_word
+[2511]inputPort_2_Daemon>		input_word		:= 0x00000013
+[2512]inputPort_2_Daemon>	new_packet_summary
+[2512]inputPort_2_Daemon>		dest_id		:= 0x00
+[2512]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2512]inputPort_2_Daemon>		seq_id		:= 0x13
+[2513]inputPort_2_Daemon>	write_status
+[2513]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2513]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2513]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2513]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2513]inputPort_2_Daemon>		data_to_outport		:= 0x100000013
+[2513]inputPort_2_Daemon>		new_packet		:= 0x0
+[2513]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2513]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2513]inputPort_2_Daemon>		count_down		:= 0x0025
+[2514]inputPort_2_Daemon>	received_input_word
+[2514]inputPort_2_Daemon>		input_word		:= 0x00000014
+[2515]inputPort_2_Daemon>	new_packet_summary
+[2515]inputPort_2_Daemon>		dest_id		:= 0x00
+[2515]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2515]inputPort_2_Daemon>		seq_id		:= 0x14
+[2516]inputPort_2_Daemon>	write_status
+[2516]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2516]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2516]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2516]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2516]inputPort_2_Daemon>		data_to_outport		:= 0x100000014
+[2516]inputPort_2_Daemon>		new_packet		:= 0x0
+[2516]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2516]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2516]inputPort_2_Daemon>		count_down		:= 0x0024
+[2517]inputPort_2_Daemon>	received_input_word
+[2517]inputPort_2_Daemon>		input_word		:= 0x00000015
+[2518]inputPort_2_Daemon>	new_packet_summary
+[2518]inputPort_2_Daemon>		dest_id		:= 0x00
+[2518]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2518]inputPort_2_Daemon>		seq_id		:= 0x15
+[2519]inputPort_2_Daemon>	write_status
+[2519]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2519]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2519]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2519]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2519]inputPort_2_Daemon>		data_to_outport		:= 0x100000015
+[2519]inputPort_2_Daemon>		new_packet		:= 0x0
+[2519]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2519]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2519]inputPort_2_Daemon>		count_down		:= 0x0023
+[2520]inputPort_2_Daemon>	received_input_word
+[2520]inputPort_2_Daemon>		input_word		:= 0x00000016
+[2521]inputPort_2_Daemon>	new_packet_summary
+[2521]inputPort_2_Daemon>		dest_id		:= 0x00
+[2521]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2521]inputPort_2_Daemon>		seq_id		:= 0x16
+[2522]inputPort_2_Daemon>	write_status
+[2522]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2522]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2522]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2522]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2522]inputPort_2_Daemon>		data_to_outport		:= 0x100000016
+[2522]inputPort_2_Daemon>		new_packet		:= 0x0
+[2522]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2522]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2522]inputPort_2_Daemon>		count_down		:= 0x0022
+[2523]inputPort_2_Daemon>	received_input_word
+[2523]inputPort_2_Daemon>		input_word		:= 0x00000017
+[2524]inputPort_2_Daemon>	new_packet_summary
+[2524]inputPort_2_Daemon>		dest_id		:= 0x00
+[2524]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2524]inputPort_2_Daemon>		seq_id		:= 0x17
+[2525]inputPort_2_Daemon>	write_status
+[2525]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2525]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2525]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2525]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2525]inputPort_2_Daemon>		data_to_outport		:= 0x100000017
+[2525]inputPort_2_Daemon>		new_packet		:= 0x0
+[2525]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2525]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2525]inputPort_2_Daemon>		count_down		:= 0x0021
+[2526]inputPort_2_Daemon>	received_input_word
+[2526]inputPort_2_Daemon>		input_word		:= 0x00000018
+[2527]inputPort_2_Daemon>	new_packet_summary
+[2527]inputPort_2_Daemon>		dest_id		:= 0x00
+[2527]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2527]inputPort_2_Daemon>		seq_id		:= 0x18
+[2528]inputPort_2_Daemon>	write_status
+[2528]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2528]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2528]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2528]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2528]inputPort_2_Daemon>		data_to_outport		:= 0x100000018
+[2528]inputPort_2_Daemon>		new_packet		:= 0x0
+[2528]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2528]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2528]inputPort_2_Daemon>		count_down		:= 0x0020
+[2529]inputPort_2_Daemon>	received_input_word
+[2529]inputPort_2_Daemon>		input_word		:= 0x00000019
+[2530]inputPort_2_Daemon>	new_packet_summary
+[2530]inputPort_2_Daemon>		dest_id		:= 0x00
+[2530]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2530]inputPort_2_Daemon>		seq_id		:= 0x19
+[2531]inputPort_2_Daemon>	write_status
+[2531]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2531]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2531]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2531]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2531]inputPort_2_Daemon>		data_to_outport		:= 0x100000019
+[2531]inputPort_2_Daemon>		new_packet		:= 0x0
+[2531]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2531]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2531]inputPort_2_Daemon>		count_down		:= 0x001f
+[2532]inputPort_2_Daemon>	received_input_word
+[2532]inputPort_2_Daemon>		input_word		:= 0x0000001a
+[2533]inputPort_2_Daemon>	new_packet_summary
+[2533]inputPort_2_Daemon>		dest_id		:= 0x00
+[2533]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2533]inputPort_2_Daemon>		seq_id		:= 0x1a
+[2534]inputPort_2_Daemon>	write_status
+[2534]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2534]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2534]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2534]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2534]inputPort_2_Daemon>		data_to_outport		:= 0x10000001a
+[2534]inputPort_2_Daemon>		new_packet		:= 0x0
+[2534]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2534]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2534]inputPort_2_Daemon>		count_down		:= 0x001e
+[2535]inputPort_2_Daemon>	received_input_word
+[2535]inputPort_2_Daemon>		input_word		:= 0x0000001b
+[2536]inputPort_2_Daemon>	new_packet_summary
+[2536]inputPort_2_Daemon>		dest_id		:= 0x00
+[2536]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2536]inputPort_2_Daemon>		seq_id		:= 0x1b
+[2537]inputPort_2_Daemon>	write_status
+[2537]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2537]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2537]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2537]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2537]inputPort_2_Daemon>		data_to_outport		:= 0x10000001b
+[2537]inputPort_2_Daemon>		new_packet		:= 0x0
+[2537]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2537]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2537]inputPort_2_Daemon>		count_down		:= 0x001d
+[2538]inputPort_2_Daemon>	received_input_word
+[2538]inputPort_2_Daemon>		input_word		:= 0x0000001c
+[2539]inputPort_2_Daemon>	new_packet_summary
+[2539]inputPort_2_Daemon>		dest_id		:= 0x00
+[2539]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2539]inputPort_2_Daemon>		seq_id		:= 0x1c
+[2540]inputPort_2_Daemon>	write_status
+[2540]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2540]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2540]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2540]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2540]inputPort_2_Daemon>		data_to_outport		:= 0x10000001c
+[2540]inputPort_2_Daemon>		new_packet		:= 0x0
+[2540]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2540]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2540]inputPort_2_Daemon>		count_down		:= 0x001c
+[2541]inputPort_2_Daemon>	received_input_word
+[2541]inputPort_2_Daemon>		input_word		:= 0x0000001d
+[2542]inputPort_2_Daemon>	new_packet_summary
+[2542]inputPort_2_Daemon>		dest_id		:= 0x00
+[2542]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2542]inputPort_2_Daemon>		seq_id		:= 0x1d
+[2543]inputPort_2_Daemon>	write_status
+[2543]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2543]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2543]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2543]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2543]inputPort_2_Daemon>		data_to_outport		:= 0x10000001d
+[2543]inputPort_2_Daemon>		new_packet		:= 0x0
+[2543]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2543]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2543]inputPort_2_Daemon>		count_down		:= 0x001b
+[2544]inputPort_2_Daemon>	received_input_word
+[2544]inputPort_2_Daemon>		input_word		:= 0x0000001e
+[2545]inputPort_2_Daemon>	new_packet_summary
+[2545]inputPort_2_Daemon>		dest_id		:= 0x00
+[2545]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2545]inputPort_2_Daemon>		seq_id		:= 0x1e
+[2546]inputPort_2_Daemon>	write_status
+[2546]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2546]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2546]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2546]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2546]inputPort_2_Daemon>		data_to_outport		:= 0x10000001e
+[2546]inputPort_2_Daemon>		new_packet		:= 0x0
+[2546]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2546]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2546]inputPort_2_Daemon>		count_down		:= 0x001a
+[2547]inputPort_2_Daemon>	received_input_word
+[2547]inputPort_2_Daemon>		input_word		:= 0x0000001f
+[2548]inputPort_2_Daemon>	new_packet_summary
+[2548]inputPort_2_Daemon>		dest_id		:= 0x00
+[2548]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2548]inputPort_2_Daemon>		seq_id		:= 0x1f
+[2549]inputPort_2_Daemon>	write_status
+[2549]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2549]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2549]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2549]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2549]inputPort_2_Daemon>		data_to_outport		:= 0x10000001f
+[2549]inputPort_2_Daemon>		new_packet		:= 0x0
+[2549]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2549]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2549]inputPort_2_Daemon>		count_down		:= 0x0019
+[2550]inputPort_2_Daemon>	received_input_word
+[2550]inputPort_2_Daemon>		input_word		:= 0x00000020
+[2551]inputPort_2_Daemon>	new_packet_summary
+[2551]inputPort_2_Daemon>		dest_id		:= 0x00
+[2551]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2551]inputPort_2_Daemon>		seq_id		:= 0x20
+[2552]inputPort_2_Daemon>	write_status
+[2552]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2552]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2552]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2552]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2552]inputPort_2_Daemon>		data_to_outport		:= 0x100000020
+[2552]inputPort_2_Daemon>		new_packet		:= 0x0
+[2552]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2552]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2552]inputPort_2_Daemon>		count_down		:= 0x0018
+[2553]inputPort_2_Daemon>	received_input_word
+[2553]inputPort_2_Daemon>		input_word		:= 0x00000021
+[2554]inputPort_2_Daemon>	new_packet_summary
+[2554]inputPort_2_Daemon>		dest_id		:= 0x00
+[2554]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2554]inputPort_2_Daemon>		seq_id		:= 0x21
+[2555]inputPort_2_Daemon>	write_status
+[2555]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2555]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2555]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2555]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2555]inputPort_2_Daemon>		data_to_outport		:= 0x100000021
+[2555]inputPort_2_Daemon>		new_packet		:= 0x0
+[2555]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2555]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2555]inputPort_2_Daemon>		count_down		:= 0x0017
+[2556]inputPort_2_Daemon>	received_input_word
+[2556]inputPort_2_Daemon>		input_word		:= 0x00000022
+[2557]inputPort_2_Daemon>	new_packet_summary
+[2557]inputPort_2_Daemon>		dest_id		:= 0x00
+[2557]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2557]inputPort_2_Daemon>		seq_id		:= 0x22
+[2558]inputPort_2_Daemon>	write_status
+[2558]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2558]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2558]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2558]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2558]inputPort_2_Daemon>		data_to_outport		:= 0x100000022
+[2558]inputPort_2_Daemon>		new_packet		:= 0x0
+[2558]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2558]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2558]inputPort_2_Daemon>		count_down		:= 0x0016
+[2559]inputPort_2_Daemon>	received_input_word
+[2559]inputPort_2_Daemon>		input_word		:= 0x00000023
+[2560]inputPort_2_Daemon>	new_packet_summary
+[2560]inputPort_2_Daemon>		dest_id		:= 0x00
+[2560]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2560]inputPort_2_Daemon>		seq_id		:= 0x23
+[2561]inputPort_2_Daemon>	write_status
+[2561]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2561]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2561]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2561]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2561]inputPort_2_Daemon>		data_to_outport		:= 0x100000023
+[2561]inputPort_2_Daemon>		new_packet		:= 0x0
+[2561]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2561]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2561]inputPort_2_Daemon>		count_down		:= 0x0015
+[2562]inputPort_2_Daemon>	received_input_word
+[2562]inputPort_2_Daemon>		input_word		:= 0x00000024
+[2563]inputPort_2_Daemon>	new_packet_summary
+[2563]inputPort_2_Daemon>		dest_id		:= 0x00
+[2563]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2563]inputPort_2_Daemon>		seq_id		:= 0x24
+[2564]inputPort_2_Daemon>	write_status
+[2564]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2564]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2564]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2564]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2564]inputPort_2_Daemon>		data_to_outport		:= 0x100000024
+[2564]inputPort_2_Daemon>		new_packet		:= 0x0
+[2564]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2564]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2564]inputPort_2_Daemon>		count_down		:= 0x0014
+[2565]inputPort_2_Daemon>	received_input_word
+[2565]inputPort_2_Daemon>		input_word		:= 0x00000025
+[2566]inputPort_2_Daemon>	new_packet_summary
+[2566]inputPort_2_Daemon>		dest_id		:= 0x00
+[2566]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2566]inputPort_2_Daemon>		seq_id		:= 0x25
+[2567]inputPort_2_Daemon>	write_status
+[2567]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2567]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2567]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2567]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2567]inputPort_2_Daemon>		data_to_outport		:= 0x100000025
+[2567]inputPort_2_Daemon>		new_packet		:= 0x0
+[2567]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2567]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2567]inputPort_2_Daemon>		count_down		:= 0x0013
+[2568]inputPort_2_Daemon>	received_input_word
+[2568]inputPort_2_Daemon>		input_word		:= 0x00000026
+[2569]inputPort_2_Daemon>	new_packet_summary
+[2569]inputPort_2_Daemon>		dest_id		:= 0x00
+[2569]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2569]inputPort_2_Daemon>		seq_id		:= 0x26
+[2570]inputPort_2_Daemon>	write_status
+[2570]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2570]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2570]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2570]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2570]inputPort_2_Daemon>		data_to_outport		:= 0x100000026
+[2570]inputPort_2_Daemon>		new_packet		:= 0x0
+[2570]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2570]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2570]inputPort_2_Daemon>		count_down		:= 0x0012
+[2571]inputPort_2_Daemon>	received_input_word
+[2571]inputPort_2_Daemon>		input_word		:= 0x00000027
+[2572]inputPort_2_Daemon>	new_packet_summary
+[2572]inputPort_2_Daemon>		dest_id		:= 0x00
+[2572]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2572]inputPort_2_Daemon>		seq_id		:= 0x27
+[2573]inputPort_2_Daemon>	write_status
+[2573]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2573]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2573]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2573]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2573]inputPort_2_Daemon>		data_to_outport		:= 0x100000027
+[2573]inputPort_2_Daemon>		new_packet		:= 0x0
+[2573]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2573]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2573]inputPort_2_Daemon>		count_down		:= 0x0011
+[2574]inputPort_2_Daemon>	received_input_word
+[2574]inputPort_2_Daemon>		input_word		:= 0x00000028
+[2575]inputPort_2_Daemon>	new_packet_summary
+[2575]inputPort_2_Daemon>		dest_id		:= 0x00
+[2575]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2575]inputPort_2_Daemon>		seq_id		:= 0x28
+[2576]inputPort_2_Daemon>	write_status
+[2576]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2576]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2576]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2576]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2576]inputPort_2_Daemon>		data_to_outport		:= 0x100000028
+[2576]inputPort_2_Daemon>		new_packet		:= 0x0
+[2576]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2576]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2576]inputPort_2_Daemon>		count_down		:= 0x0010
+[2577]inputPort_2_Daemon>	received_input_word
+[2577]inputPort_2_Daemon>		input_word		:= 0x00000029
+[2578]inputPort_2_Daemon>	new_packet_summary
+[2578]inputPort_2_Daemon>		dest_id		:= 0x00
+[2578]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2578]inputPort_2_Daemon>		seq_id		:= 0x29
+[2579]inputPort_2_Daemon>	write_status
+[2579]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2579]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2579]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2579]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2579]inputPort_2_Daemon>		data_to_outport		:= 0x100000029
+[2579]inputPort_2_Daemon>		new_packet		:= 0x0
+[2579]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2579]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2579]inputPort_2_Daemon>		count_down		:= 0x000f
+[2580]inputPort_2_Daemon>	received_input_word
+[2580]inputPort_2_Daemon>		input_word		:= 0x0000002a
+[2581]inputPort_2_Daemon>	new_packet_summary
+[2581]inputPort_2_Daemon>		dest_id		:= 0x00
+[2581]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2581]inputPort_2_Daemon>		seq_id		:= 0x2a
+[2582]inputPort_2_Daemon>	write_status
+[2582]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2582]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2582]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2582]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2582]inputPort_2_Daemon>		data_to_outport		:= 0x10000002a
+[2582]inputPort_2_Daemon>		new_packet		:= 0x0
+[2582]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2582]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2582]inputPort_2_Daemon>		count_down		:= 0x000e
+[2583]inputPort_2_Daemon>	received_input_word
+[2583]inputPort_2_Daemon>		input_word		:= 0x0000002b
+[2584]inputPort_2_Daemon>	new_packet_summary
+[2584]inputPort_2_Daemon>		dest_id		:= 0x00
+[2584]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2584]inputPort_2_Daemon>		seq_id		:= 0x2b
+[2585]inputPort_2_Daemon>	write_status
+[2585]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2585]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2585]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2585]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2585]inputPort_2_Daemon>		data_to_outport		:= 0x10000002b
+[2585]inputPort_2_Daemon>		new_packet		:= 0x0
+[2585]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2585]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2585]inputPort_2_Daemon>		count_down		:= 0x000d
+[2586]inputPort_2_Daemon>	received_input_word
+[2586]inputPort_2_Daemon>		input_word		:= 0x0000002c
+[2587]inputPort_2_Daemon>	new_packet_summary
+[2587]inputPort_2_Daemon>		dest_id		:= 0x00
+[2587]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2587]inputPort_2_Daemon>		seq_id		:= 0x2c
+[2588]inputPort_2_Daemon>	write_status
+[2588]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2588]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2588]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2588]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2588]inputPort_2_Daemon>		data_to_outport		:= 0x10000002c
+[2588]inputPort_2_Daemon>		new_packet		:= 0x0
+[2588]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2588]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2588]inputPort_2_Daemon>		count_down		:= 0x000c
+[2589]inputPort_2_Daemon>	received_input_word
+[2589]inputPort_2_Daemon>		input_word		:= 0x0000002d
+[2590]inputPort_2_Daemon>	new_packet_summary
+[2590]inputPort_2_Daemon>		dest_id		:= 0x00
+[2590]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2590]inputPort_2_Daemon>		seq_id		:= 0x2d
+[2591]inputPort_2_Daemon>	write_status
+[2591]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2591]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2591]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2591]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2591]inputPort_2_Daemon>		data_to_outport		:= 0x10000002d
+[2591]inputPort_2_Daemon>		new_packet		:= 0x0
+[2591]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2591]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2591]inputPort_2_Daemon>		count_down		:= 0x000b
+[2592]inputPort_2_Daemon>	received_input_word
+[2592]inputPort_2_Daemon>		input_word		:= 0x0000002e
+[2593]inputPort_2_Daemon>	new_packet_summary
+[2593]inputPort_2_Daemon>		dest_id		:= 0x00
+[2593]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2593]inputPort_2_Daemon>		seq_id		:= 0x2e
+[2594]inputPort_2_Daemon>	write_status
+[2594]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2594]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2594]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2594]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2594]inputPort_2_Daemon>		data_to_outport		:= 0x10000002e
+[2594]inputPort_2_Daemon>		new_packet		:= 0x0
+[2594]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2594]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2594]inputPort_2_Daemon>		count_down		:= 0x000a
+[2595]inputPort_2_Daemon>	received_input_word
+[2595]inputPort_2_Daemon>		input_word		:= 0x0000002f
+[2596]inputPort_2_Daemon>	new_packet_summary
+[2596]inputPort_2_Daemon>		dest_id		:= 0x00
+[2596]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2596]inputPort_2_Daemon>		seq_id		:= 0x2f
+[2597]inputPort_2_Daemon>	write_status
+[2597]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2597]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2597]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2597]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2597]inputPort_2_Daemon>		data_to_outport		:= 0x10000002f
+[2597]inputPort_2_Daemon>		new_packet		:= 0x0
+[2597]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2597]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2597]inputPort_2_Daemon>		count_down		:= 0x0009
+[2598]inputPort_2_Daemon>	received_input_word
+[2598]inputPort_2_Daemon>		input_word		:= 0x00000030
+[2599]inputPort_2_Daemon>	new_packet_summary
+[2599]inputPort_2_Daemon>		dest_id		:= 0x00
+[2599]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2599]inputPort_2_Daemon>		seq_id		:= 0x30
+[2600]inputPort_2_Daemon>	write_status
+[2600]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2600]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2600]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2600]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2600]inputPort_2_Daemon>		data_to_outport		:= 0x100000030
+[2600]inputPort_2_Daemon>		new_packet		:= 0x0
+[2600]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2600]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2600]inputPort_2_Daemon>		count_down		:= 0x0008
+[2601]inputPort_2_Daemon>	received_input_word
+[2601]inputPort_2_Daemon>		input_word		:= 0x00000031
+[2602]inputPort_2_Daemon>	new_packet_summary
+[2602]inputPort_2_Daemon>		dest_id		:= 0x00
+[2602]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2602]inputPort_2_Daemon>		seq_id		:= 0x31
+[2603]inputPort_2_Daemon>	write_status
+[2603]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2603]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2603]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2603]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2603]inputPort_2_Daemon>		data_to_outport		:= 0x100000031
+[2603]inputPort_2_Daemon>		new_packet		:= 0x0
+[2603]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2603]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2603]inputPort_2_Daemon>		count_down		:= 0x0007
+[2604]inputPort_2_Daemon>	received_input_word
+[2604]inputPort_2_Daemon>		input_word		:= 0x00000032
+[2605]inputPort_2_Daemon>	new_packet_summary
+[2605]inputPort_2_Daemon>		dest_id		:= 0x00
+[2605]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2605]inputPort_2_Daemon>		seq_id		:= 0x32
+[2606]inputPort_2_Daemon>	write_status
+[2606]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2606]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2606]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2606]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2606]inputPort_2_Daemon>		data_to_outport		:= 0x100000032
+[2606]inputPort_2_Daemon>		new_packet		:= 0x0
+[2606]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2606]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2606]inputPort_2_Daemon>		count_down		:= 0x0006
+[2607]inputPort_2_Daemon>	received_input_word
+[2607]inputPort_2_Daemon>		input_word		:= 0x00000033
+[2608]inputPort_2_Daemon>	new_packet_summary
+[2608]inputPort_2_Daemon>		dest_id		:= 0x00
+[2608]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2608]inputPort_2_Daemon>		seq_id		:= 0x33
+[2609]inputPort_2_Daemon>	write_status
+[2609]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2609]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2609]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2609]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2609]inputPort_2_Daemon>		data_to_outport		:= 0x100000033
+[2609]inputPort_2_Daemon>		new_packet		:= 0x0
+[2609]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2609]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2609]inputPort_2_Daemon>		count_down		:= 0x0005
+[2610]inputPort_2_Daemon>	received_input_word
+[2610]inputPort_2_Daemon>		input_word		:= 0x00000034
+[2611]inputPort_2_Daemon>	new_packet_summary
+[2611]inputPort_2_Daemon>		dest_id		:= 0x00
+[2611]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2611]inputPort_2_Daemon>		seq_id		:= 0x34
+[2612]inputPort_2_Daemon>	write_status
+[2612]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2612]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2612]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2612]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2612]inputPort_2_Daemon>		data_to_outport		:= 0x100000034
+[2612]inputPort_2_Daemon>		new_packet		:= 0x0
+[2612]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2612]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2612]inputPort_2_Daemon>		count_down		:= 0x0004
+[2613]inputPort_2_Daemon>	received_input_word
+[2613]inputPort_2_Daemon>		input_word		:= 0x00000035
+[2614]inputPort_2_Daemon>	new_packet_summary
+[2614]inputPort_2_Daemon>		dest_id		:= 0x00
+[2614]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2614]inputPort_2_Daemon>		seq_id		:= 0x35
+[2615]inputPort_2_Daemon>	write_status
+[2615]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2615]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2615]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2615]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2615]inputPort_2_Daemon>		data_to_outport		:= 0x100000035
+[2615]inputPort_2_Daemon>		new_packet		:= 0x0
+[2615]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2615]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2615]inputPort_2_Daemon>		count_down		:= 0x0003
+[2616]inputPort_2_Daemon>	received_input_word
+[2616]inputPort_2_Daemon>		input_word		:= 0x00000036
+[2617]inputPort_2_Daemon>	new_packet_summary
+[2617]inputPort_2_Daemon>		dest_id		:= 0x00
+[2617]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2617]inputPort_2_Daemon>		seq_id		:= 0x36
+[2618]inputPort_2_Daemon>	write_status
+[2618]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2618]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2618]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2618]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2618]inputPort_2_Daemon>		data_to_outport		:= 0x100000036
+[2618]inputPort_2_Daemon>		new_packet		:= 0x0
+[2618]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2618]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2618]inputPort_2_Daemon>		count_down		:= 0x0002
+[2619]inputPort_2_Daemon>	received_input_word
+[2619]inputPort_2_Daemon>		input_word		:= 0x00000037
+[2620]inputPort_2_Daemon>	new_packet_summary
+[2620]inputPort_2_Daemon>		dest_id		:= 0x00
+[2620]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2620]inputPort_2_Daemon>		seq_id		:= 0x37
+[2621]inputPort_2_Daemon>	write_status
+[2621]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2621]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2621]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2621]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2621]inputPort_2_Daemon>		data_to_outport		:= 0x100000037
+[2621]inputPort_2_Daemon>		new_packet		:= 0x0
+[2621]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2621]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2621]inputPort_2_Daemon>		count_down		:= 0x0001
+[2622]inputPort_2_Daemon>	received_input_word
+[2622]inputPort_2_Daemon>		input_word		:= 0x0300380e
+[2623]inputPort_2_Daemon>	new_packet_summary
+[2623]inputPort_2_Daemon>		dest_id		:= 0x03
+[2623]inputPort_2_Daemon>		pkt_length		:= 0x0038
+[2623]inputPort_2_Daemon>		seq_id		:= 0x0e
+[2624]inputPort_2_Daemon>	write_status
+[2624]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2624]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2624]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2624]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2624]inputPort_2_Daemon>		data_to_outport		:= 0x10300380e
+[2624]inputPort_2_Daemon>		new_packet		:= 0x1
+[2624]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2624]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2624]inputPort_2_Daemon>		count_down		:= 0x0000
+[2625]inputPort_2_Daemon>	received_input_word
+[2625]inputPort_2_Daemon>		input_word		:= 0x00000001
+[2626]inputPort_2_Daemon>	new_packet_summary
+[2626]inputPort_2_Daemon>		dest_id		:= 0x00
+[2626]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2626]inputPort_2_Daemon>		seq_id		:= 0x01
+[2627]inputPort_2_Daemon>	write_status
+[2627]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2627]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2627]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2627]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2627]inputPort_2_Daemon>		data_to_outport		:= 0x100000001
+[2627]inputPort_2_Daemon>		new_packet		:= 0x0
+[2627]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2627]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2627]inputPort_2_Daemon>		count_down		:= 0x0037
+[2628]inputPort_2_Daemon>	received_input_word
+[2628]inputPort_2_Daemon>		input_word		:= 0x00000002
+[2629]inputPort_2_Daemon>	new_packet_summary
+[2629]inputPort_2_Daemon>		dest_id		:= 0x00
+[2629]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2629]inputPort_2_Daemon>		seq_id		:= 0x02
+[2630]inputPort_2_Daemon>	write_status
+[2630]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2630]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2630]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2630]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2630]inputPort_2_Daemon>		data_to_outport		:= 0x100000002
+[2630]inputPort_2_Daemon>		new_packet		:= 0x0
+[2630]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2630]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2630]inputPort_2_Daemon>		count_down		:= 0x0036
+[2631]inputPort_2_Daemon>	received_input_word
+[2631]inputPort_2_Daemon>		input_word		:= 0x00000003
+[2632]inputPort_2_Daemon>	new_packet_summary
+[2632]inputPort_2_Daemon>		dest_id		:= 0x00
+[2632]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2632]inputPort_2_Daemon>		seq_id		:= 0x03
+[2633]inputPort_2_Daemon>	write_status
+[2633]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2633]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2633]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2633]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2633]inputPort_2_Daemon>		data_to_outport		:= 0x100000003
+[2633]inputPort_2_Daemon>		new_packet		:= 0x0
+[2633]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2633]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2633]inputPort_2_Daemon>		count_down		:= 0x0035
+[2634]inputPort_2_Daemon>	received_input_word
+[2634]inputPort_2_Daemon>		input_word		:= 0x00000004
+[2635]inputPort_2_Daemon>	new_packet_summary
+[2635]inputPort_2_Daemon>		dest_id		:= 0x00
+[2635]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2635]inputPort_2_Daemon>		seq_id		:= 0x04
+[2636]inputPort_2_Daemon>	write_status
+[2636]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2636]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2636]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2636]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2636]inputPort_2_Daemon>		data_to_outport		:= 0x100000004
+[2636]inputPort_2_Daemon>		new_packet		:= 0x0
+[2636]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2636]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2636]inputPort_2_Daemon>		count_down		:= 0x0034
+[2637]inputPort_2_Daemon>	received_input_word
+[2637]inputPort_2_Daemon>		input_word		:= 0x00000005
+[2638]inputPort_2_Daemon>	new_packet_summary
+[2638]inputPort_2_Daemon>		dest_id		:= 0x00
+[2638]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2638]inputPort_2_Daemon>		seq_id		:= 0x05
+[2639]inputPort_2_Daemon>	write_status
+[2639]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2639]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2639]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2639]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2639]inputPort_2_Daemon>		data_to_outport		:= 0x100000005
+[2639]inputPort_2_Daemon>		new_packet		:= 0x0
+[2639]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2639]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2639]inputPort_2_Daemon>		count_down		:= 0x0033
+[2640]inputPort_2_Daemon>	received_input_word
+[2640]inputPort_2_Daemon>		input_word		:= 0x00000006
+[2641]inputPort_2_Daemon>	new_packet_summary
+[2641]inputPort_2_Daemon>		dest_id		:= 0x00
+[2641]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2641]inputPort_2_Daemon>		seq_id		:= 0x06
+[2642]inputPort_2_Daemon>	write_status
+[2642]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2642]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2642]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2642]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2642]inputPort_2_Daemon>		data_to_outport		:= 0x100000006
+[2642]inputPort_2_Daemon>		new_packet		:= 0x0
+[2642]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2642]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2642]inputPort_2_Daemon>		count_down		:= 0x0032
+[2643]inputPort_2_Daemon>	received_input_word
+[2643]inputPort_2_Daemon>		input_word		:= 0x00000007
+[2644]inputPort_2_Daemon>	new_packet_summary
+[2644]inputPort_2_Daemon>		dest_id		:= 0x00
+[2644]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2644]inputPort_2_Daemon>		seq_id		:= 0x07
+[2645]inputPort_2_Daemon>	write_status
+[2645]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2645]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2645]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2645]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2645]inputPort_2_Daemon>		data_to_outport		:= 0x100000007
+[2645]inputPort_2_Daemon>		new_packet		:= 0x0
+[2645]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2645]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2645]inputPort_2_Daemon>		count_down		:= 0x0031
+[2646]inputPort_2_Daemon>	received_input_word
+[2646]inputPort_2_Daemon>		input_word		:= 0x00000008
+[2647]inputPort_2_Daemon>	new_packet_summary
+[2647]inputPort_2_Daemon>		dest_id		:= 0x00
+[2647]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2647]inputPort_2_Daemon>		seq_id		:= 0x08
+[2648]inputPort_2_Daemon>	write_status
+[2648]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2648]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2648]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2648]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2648]inputPort_2_Daemon>		data_to_outport		:= 0x100000008
+[2648]inputPort_2_Daemon>		new_packet		:= 0x0
+[2648]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2648]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2648]inputPort_2_Daemon>		count_down		:= 0x0030
+[2649]inputPort_2_Daemon>	received_input_word
+[2649]inputPort_2_Daemon>		input_word		:= 0x00000009
+[2650]inputPort_2_Daemon>	new_packet_summary
+[2650]inputPort_2_Daemon>		dest_id		:= 0x00
+[2650]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2650]inputPort_2_Daemon>		seq_id		:= 0x09
+[2651]inputPort_2_Daemon>	write_status
+[2651]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2651]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2651]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2651]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2651]inputPort_2_Daemon>		data_to_outport		:= 0x100000009
+[2651]inputPort_2_Daemon>		new_packet		:= 0x0
+[2651]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2651]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2651]inputPort_2_Daemon>		count_down		:= 0x002f
+[2652]inputPort_2_Daemon>	received_input_word
+[2652]inputPort_2_Daemon>		input_word		:= 0x0000000a
+[2653]inputPort_2_Daemon>	new_packet_summary
+[2653]inputPort_2_Daemon>		dest_id		:= 0x00
+[2653]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2653]inputPort_2_Daemon>		seq_id		:= 0x0a
+[2654]inputPort_2_Daemon>	write_status
+[2654]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2654]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2654]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2654]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2654]inputPort_2_Daemon>		data_to_outport		:= 0x10000000a
+[2654]inputPort_2_Daemon>		new_packet		:= 0x0
+[2654]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2654]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2654]inputPort_2_Daemon>		count_down		:= 0x002e
+[2655]inputPort_2_Daemon>	received_input_word
+[2655]inputPort_2_Daemon>		input_word		:= 0x0000000b
+[2656]inputPort_2_Daemon>	new_packet_summary
+[2656]inputPort_2_Daemon>		dest_id		:= 0x00
+[2656]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2656]inputPort_2_Daemon>		seq_id		:= 0x0b
+[2657]inputPort_2_Daemon>	write_status
+[2657]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2657]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2657]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2657]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2657]inputPort_2_Daemon>		data_to_outport		:= 0x10000000b
+[2657]inputPort_2_Daemon>		new_packet		:= 0x0
+[2657]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2657]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2657]inputPort_2_Daemon>		count_down		:= 0x002d
+[2705]inputPort_2_Daemon>	received_input_word
+[2705]inputPort_2_Daemon>		input_word		:= 0x0000000c
+[2706]inputPort_2_Daemon>	new_packet_summary
+[2706]inputPort_2_Daemon>		dest_id		:= 0x00
+[2706]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2706]inputPort_2_Daemon>		seq_id		:= 0x0c
+[2707]inputPort_2_Daemon>	write_status
+[2707]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2707]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2707]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2707]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2707]inputPort_2_Daemon>		data_to_outport		:= 0x10000000c
+[2707]inputPort_2_Daemon>		new_packet		:= 0x0
+[2707]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2707]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2707]inputPort_2_Daemon>		count_down		:= 0x002c
+[2708]inputPort_2_Daemon>	received_input_word
+[2708]inputPort_2_Daemon>		input_word		:= 0x0000000d
+[2709]inputPort_2_Daemon>	new_packet_summary
+[2709]inputPort_2_Daemon>		dest_id		:= 0x00
+[2709]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2709]inputPort_2_Daemon>		seq_id		:= 0x0d
+[2710]inputPort_2_Daemon>	write_status
+[2710]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2710]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2710]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2710]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2710]inputPort_2_Daemon>		data_to_outport		:= 0x10000000d
+[2710]inputPort_2_Daemon>		new_packet		:= 0x0
+[2710]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2710]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2710]inputPort_2_Daemon>		count_down		:= 0x002b
+[2711]inputPort_2_Daemon>	received_input_word
+[2711]inputPort_2_Daemon>		input_word		:= 0x0000000e
+[2712]inputPort_2_Daemon>	new_packet_summary
+[2712]inputPort_2_Daemon>		dest_id		:= 0x00
+[2712]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2712]inputPort_2_Daemon>		seq_id		:= 0x0e
+[2741]inputPort_2_Daemon>	write_status
+[2741]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2741]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2741]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2741]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2741]inputPort_2_Daemon>		data_to_outport		:= 0x10000000e
+[2741]inputPort_2_Daemon>		new_packet		:= 0x0
+[2741]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2741]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2741]inputPort_2_Daemon>		count_down		:= 0x002a
+[2742]inputPort_2_Daemon>	received_input_word
+[2742]inputPort_2_Daemon>		input_word		:= 0x0000000f
+[2744]inputPort_2_Daemon>	new_packet_summary
+[2744]inputPort_2_Daemon>		dest_id		:= 0x00
+[2744]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2744]inputPort_2_Daemon>		seq_id		:= 0x0f
+[2745]inputPort_2_Daemon>	write_status
+[2745]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2745]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2745]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2745]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2745]inputPort_2_Daemon>		data_to_outport		:= 0x10000000f
+[2745]inputPort_2_Daemon>		new_packet		:= 0x0
+[2745]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2745]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2745]inputPort_2_Daemon>		count_down		:= 0x0029
+[2746]inputPort_2_Daemon>	received_input_word
+[2746]inputPort_2_Daemon>		input_word		:= 0x00000010
+[2747]inputPort_2_Daemon>	new_packet_summary
+[2747]inputPort_2_Daemon>		dest_id		:= 0x00
+[2747]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2747]inputPort_2_Daemon>		seq_id		:= 0x10
+[2748]inputPort_2_Daemon>	write_status
+[2748]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2748]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2748]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2748]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2748]inputPort_2_Daemon>		data_to_outport		:= 0x100000010
+[2748]inputPort_2_Daemon>		new_packet		:= 0x0
+[2748]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2748]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2748]inputPort_2_Daemon>		count_down		:= 0x0028
+[2749]inputPort_2_Daemon>	received_input_word
+[2749]inputPort_2_Daemon>		input_word		:= 0x00000011
+[2750]inputPort_2_Daemon>	new_packet_summary
+[2750]inputPort_2_Daemon>		dest_id		:= 0x00
+[2750]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2750]inputPort_2_Daemon>		seq_id		:= 0x11
+[2751]inputPort_2_Daemon>	write_status
+[2751]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2751]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2751]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2751]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2751]inputPort_2_Daemon>		data_to_outport		:= 0x100000011
+[2751]inputPort_2_Daemon>		new_packet		:= 0x0
+[2751]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2751]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2751]inputPort_2_Daemon>		count_down		:= 0x0027
+[2752]inputPort_2_Daemon>	received_input_word
+[2752]inputPort_2_Daemon>		input_word		:= 0x00000012
+[2753]inputPort_2_Daemon>	new_packet_summary
+[2753]inputPort_2_Daemon>		dest_id		:= 0x00
+[2753]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2753]inputPort_2_Daemon>		seq_id		:= 0x12
+[2754]inputPort_2_Daemon>	write_status
+[2754]inputPort_2_Daemon>		send_to_1		:= 0x0
+[2754]inputPort_2_Daemon>		send_to_2		:= 0x0
+[2754]inputPort_2_Daemon>		send_to_3		:= 0x1
+[2754]inputPort_2_Daemon>		send_to_4		:= 0x0
+[2754]inputPort_2_Daemon>		data_to_outport		:= 0x100000012
+[2754]inputPort_2_Daemon>		new_packet		:= 0x0
+[2754]inputPort_2_Daemon>		last_dest_id		:= 0x03
+[2754]inputPort_2_Daemon>		next_last_dest_id		:= 0x03
+[2754]inputPort_2_Daemon>		count_down		:= 0x0026
+[2755]inputPort_2_Daemon>	received_input_word
+[2755]inputPort_2_Daemon>		input_word		:= 0x00000013
+[2756]inputPort_2_Daemon>	new_packet_summary
+[2756]inputPort_2_Daemon>		dest_id		:= 0x00
+[2756]inputPort_2_Daemon>		pkt_length		:= 0x0000
+[2756]inputPort_2_Daemon>		seq_id		:= 0x13

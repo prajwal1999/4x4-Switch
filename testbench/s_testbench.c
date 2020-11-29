@@ -73,8 +73,6 @@ void input_port_core(int port_id)
 			(tb_config.random_dest_flag[port_id-1] ? ((rand() & (NUMBER_OF_PORTS-1))+1) :  
 				tb_config.destination_port[port_id-1]);
 
-
-
 		if(dest_port > 0)
 		{
 			send_buffer[0] = (dest_port << 24) | (packet_length << 8) | seq_id;
@@ -152,7 +150,7 @@ void output_port_core(int port_id)
 		if(dest != port_id)
 		{
 			fprintf(stderr,"Error: at port %d, packet number %d from input port %d,"
-					" destination mismatch! This packet should go to port %d\n", port_id, PCOUNT, input_port, dest);
+					" destination mismatch! This packet should go to %d\n", port_id, PCOUNT, input_port, dest);
 			err = 1;
 		}
 		else

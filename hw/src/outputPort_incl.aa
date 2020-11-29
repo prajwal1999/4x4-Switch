@@ -4,10 +4,10 @@ $module [ ##OUTPUTPORTDAEMON ] $in () $out () $is
         $dopipeline $depth OUTPUT_PORT_PIPELINE_DEPTH $fullrate
 
             $merge $entry $loopback
-                // how to many words left to read - down_counter
-                $phi down_counter := ZERO_8 $on $entry next_down_counter $on $loopback
+                // how to many words left to read = down_counter
+                $phi down_counter := ($bitcast ($uint<16>) 0) $on $entry next_down_counter $on $loopback
 
-                // pkt_1_e_word - word that will be read from input queue 1 "now, We may not read 
+                // pkt_1_e_word - word that will be read from input queue 1 now, We may not read 
                 $phi pkt_1_e_word := ZERO_33 $on $entry 
                     $guard (read_from_1) ##NOBLOCKOBUF_FROM_1 $on $loopback
                 $phi pkt_2_e_word := ZERO_33 $on $entry 
@@ -17,49 +17,67 @@ $module [ ##OUTPUTPORTDAEMON ] $in () $out () $is
                 $phi pkt_4_e_word := ZERO_33 $on $entry 
                     $guard (read_from_4) ##NOBLOCKOBUF_FROM_4 $on $loopback
 
-                // active_packet - packet number being sent out
+                // active_packet - packet number being sent out currently
                 $phi active_packet := ZERO_3 $on $entry next_active_packet $on $loopback
-                $phi priority_pkt := ZERO_3 $on $entry next_priority_pkt $on $loopback
 
-                //$phi active_packet := ZERO_2 $on $entry next_active_packet $on $loopback
-                //$phi pkt_1_has_priority := ZERO_1 $on $entry next_pkt_1_has_priority $on $loopback
+                // priority_queue - which queue has priority ? 1 ,2, 3 or 4
+                $phi priority_queue := ONE_3 $on $entry next_priority_queue $on $loopback
+
             $endmerge
 
+            // which words read are valid ? check top bit
             $volatile p1_valid := (pkt_1_e_word [] 32)
 			$volatile p2_valid := (pkt_2_e_word [] 32)
 			$volatile p3_valid := (pkt_3_e_word [] 32)
 			$volatile p4_valid := (pkt_4_e_word [] 32)
 
             $rreport ( ##OUTPUTPORTDAEMON state_summary 
+                        active_packet
+                        down_counter
+                        priority_queue
                         read_from_1 pkt_1_e_word
                         read_from_2 pkt_2_e_word
                         read_from_3 pkt_3_e_word
                         read_from_4 pkt_4_e_word
                     )
 
+            // do we have a valid word in active packet ? ie. have I read valid word ?
             $volatile valid_active_pkt_word_read := ($excmux 
 					(active_packet == 1) p1_valid
 					(active_packet == 2) p2_valid
                     (active_packet == 3) p3_valid
                     (active_packet == 4) p4_valid
-                    )
+                )
 
             // priority select function
+            // priority select is considered only when
+            // * no active packet - active_packet == 0
+            // * active packet finished - down_counter == 0
             $volatile $call prioritySelect 
-					    (down_counter active_packet priority_pkt p1_valid p2_valid p3_valid p4_valid)
-                        (next_active_packet next_priority_pkt)
+					    (down_counter active_packet priority_queue p1_valid p2_valid p3_valid p4_valid)
+                        (next_active_packet next_priority_queue)
 
-            $volatile started_new_packet := (next_active_packet != 0)
+            $volatile started_new_packet := ( (next_active_packet != 0) & (down_counter == 0) ) 
+
+            $volatile new_packet_length := ($excmux
+                (next_active_packet == 1) ($slice pkt_1_e_word 23 8)
+                (next_active_packet == 2) ($slice pkt_2_e_word 23 8)
+                (next_active_packet == 3) ($slice pkt_3_e_word 23 8)
+                (next_active_packet == 4) ($slice pkt_4_e_word 23 8)
+            )
 
             $volatile next_down_counter := ($mux 
-                    started_new_packet 63
+                    started_new_packet (new_packet_length - 1)
 					($mux valid_active_pkt_word_read (down_counter - 1) down_counter)
                 )
 
-            $volatile read_from_1 := ( $reduce | (~p1_valid) (active_packet == 1) )
-            $volatile read_from_2 := ( $reduce | (~p2_valid) (active_packet == 2) )
-            $volatile read_from_3 := ( $reduce | (~p3_valid) (active_packet == 3) )
-            $volatile read_from_4 := ( $reduce | (~p4_valid) (active_packet == 4) )
+            // read from queue ? if
+            // * last time I read and it was invalid or
+            // * active packet is 1
+            $volatile read_from_1 := ( $reduce | (~p1_valid) (next_active_packet == 1) )
+            $volatile read_from_2 := ( $reduce | (~p2_valid) (next_active_packet == 2) )
+            $volatile read_from_3 := ( $reduce | (~p3_valid) (next_active_packet == 3) )
+            $volatile read_from_4 := ( $reduce | (~p4_valid) (next_active_packet == 4) )
             
             // send to output port.
 			$volatile data_to_out := ($excmux 
@@ -80,6 +98,13 @@ $module [ ##OUTPUTPORTDAEMON ] $in () $out () $is
             // send if valid
 			$guard (send_flag)
 				##OUTPUT_PORT := data_to_out
+
+            $rreport(##OUTPUTPORTDAEMON send_information
+                started_new_packet
+                next_active_packet
+                send_flag
+                p1_valid p2_valid p3_valid p4_valid
+            )
 
         $while 1
     }

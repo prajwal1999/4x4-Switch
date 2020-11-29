@@ -11,8 +11,15 @@ $module [ ##INPUTPORTDAEMON ] $in () $out () $is
 				$phi last_dest_id :=  0 $on $entry next_last_dest_id $on $loopback
 			$endmerge
 
+                        $rreport ( ##INPUTPORTDAEMON received_input_word input_word )
+
+            // new packet when count down becomes zero
             $volatile new_packet := (count_down == 0)
             $volatile $split (input_word 8 16 8) (dest_id pkt_length seq_id)
+
+            $rreport ( ##INPUTPORTDAEMON new_packet_summary dest_id pkt_length seq_id )
+
+
             $volatile next_count_down := ($mux new_packet (pkt_length - 1) (count_down - 1))
             $volatile next_last_dest_id := ($mux new_packet dest_id last_dest_id)
             $volatile data_to_outport := ($concat ONE_1 input_word) // adding valid bit at start
@@ -28,6 +35,12 @@ $module [ ##INPUTPORTDAEMON ] $in () $out () $is
 
             $volatile send_to_4 := (next_last_dest_id == 4)
             $guard (send_to_4) ##NOBLOCKOBUF_TO_4 := data_to_outport
+
+            $rreport( ##INPUTPORTDAEMON write_status 
+                send_to_1 send_to_2 send_to_3 send_to_4
+                data_to_outport new_packet last_dest_id next_last_dest_id count_down
+
+            )
 
         $while 1
     }
