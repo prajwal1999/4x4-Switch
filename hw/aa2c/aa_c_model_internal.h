@@ -2460,7 +2460,7 @@ bit_vector_cast_to_bit_vector(0, &(send_flag), &(OR_u1_u1_1488));\
 
 #define _outputPort_3_Daemon_assign_stmt_1493_c_macro_ if (has_undefined_bit(&send_flag)) {fprintf(stderr, "Error: variable send_flag has undefined value (%s) at test point.\n", to_string(&send_flag));assert(0);} \
 if (bit_vector_to_uint64(0, &send_flag)) {\
-write_bit_vector_to_pipe("out_data_4",&(data_to_out));\
+write_bit_vector_to_pipe("out_data_3",&(data_to_out));\
 }
 ;
 

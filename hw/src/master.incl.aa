@@ -555,7 +555,7 @@ $module [ outputPort_3_Daemon ] $in () $out () $is
 
             // send if valid
 			$guard (send_flag)
-				out_data_4 := data_to_out
+				out_data_3 := data_to_out
 
             $rreport(outputPort_3_Daemon send_information
                 started_new_packet

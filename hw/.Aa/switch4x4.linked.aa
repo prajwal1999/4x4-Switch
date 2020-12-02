@@ -364,7 +364,7 @@ $is
     $volatile read_from_4 := (( ~ p4_valid ) | (next_active_packet == 4 )) $buffering 1
     $volatile data_to_out := ((( $mux (next_active_packet == 1 ) ( $slice pkt_1_e_word 31 0 )   _b0  )  | ( $mux (next_active_packet == 2 ) ( $slice pkt_2_e_word 31 0 )   _b0  ) ) | (( $mux (next_active_packet == 3 ) ( $slice pkt_3_e_word 31 0 )   _b0  )  | ( $mux (next_active_packet == 4 ) ( $slice pkt_4_e_word 31 0 )   _b0  ) )) $buffering 1
     $volatile send_flag := ((( $mux (next_active_packet == 1 ) p1_valid  _b0  )  | ( $mux (next_active_packet == 2 ) p2_valid  _b0  ) ) | (( $mux (next_active_packet == 3 ) p3_valid  _b0  )  | ( $mux (next_active_packet == 4 ) p4_valid  _b0  ) )) $buffering 1
-    $guard (send_flag) out_data_4 := data_to_out $buffering 1// bits of buffering = 32. 
+    $guard (send_flag) out_data_3 := data_to_out $buffering 1// bits of buffering = 32. 
     $report (outputPort_3_Daemon send_information 			 started_new_packet started_new_packet 			 next_active_packet next_active_packet 			 send_flag send_flag 			 p1_valid p1_valid 			 p2_valid p2_valid 			 p3_valid p3_valid 			 p4_valid p4_valid )
     $while 1 
   }

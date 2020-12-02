@@ -714,7 +714,7 @@ _outputPort_3_Daemon_assign_stmt_1427_c_macro_;
 _outputPort_3_Daemon_assign_stmt_1460_c_macro_; 
 // 			$volatile send_flag := ((( $mux (next_active_packet == 1 ) p1_valid  _b0  )  | ( $mux (next_active_packet == 2 ) p2_valid  _b0  ) ) | (( $mux (next_active_packet == 3 ) p3_valid  _b0  )  | ( $mux (next_active_packet == 4 ) p4_valid  _b0  ) )) $buffering 1
 _outputPort_3_Daemon_assign_stmt_1489_c_macro_; 
-// 			$guard (send_flag) out_data_4 := data_to_out $buffering 1// bits of buffering = 32. 
+// 			$guard (send_flag) out_data_3 := data_to_out $buffering 1// bits of buffering = 32. 
 _outputPort_3_Daemon_assign_stmt_1493_c_macro_; 
 // $report (outputPort_3_Daemon send_information 			 started_new_packet started_new_packet 			 next_active_packet next_active_packet 			 send_flag send_flag 			 p1_valid p1_valid 			 p2_valid p2_valid 			 p3_valid p3_valid 			 p4_valid p4_valid )
 _outputPort_3_Daemon_stmt_1501_c_macro_; 

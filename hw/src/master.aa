@@ -51,7 +51,7 @@
 #define NOBLOCKOBUF_FROM_2 noblock_obuf_2_3
 #define NOBLOCKOBUF_FROM_3 noblock_obuf_3_3
 #define NOBLOCKOBUF_FROM_4 noblock_obuf_4_3
-#define OUTPUT_PORT	   out_data_4
+#define OUTPUT_PORT	   out_data_3
 #include outputPort_incl.aa
 
 #define OUTPUTPORTDAEMON   outputPort_4_Daemon

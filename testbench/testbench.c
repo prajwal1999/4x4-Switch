@@ -86,6 +86,8 @@ void input_port_core(int port_id)
 
 			// increment by number of ports.
 			seq_id += NUMBER_OF_PORTS;
+			// fprintf(stderr,"\nInput sent from port %d to output port %d\n", 
+			// 		port_id, dest_port);
 		}
 	}
 }
@@ -145,6 +147,7 @@ void output_port_core(int port_id)
 		// input port is coded into the sequence id.
 		// int input_port = (packet[0] % NUMBER_OF_PORTS) + 1;
 		int input_port = packet[0] % NUMBER_OF_PORTS;
+		if(input_port == 0) input_port = 4;
 
 		//
 		// check the destination?
@@ -247,14 +250,14 @@ int main(int argc, char* argv[])
 	for(I = 0; I < NUMBER_OF_PORTS; I++)
 	{
 		
-		tb_config.active_flag[I] = 0;
+		tb_config.active_flag[I] = 1;
 		tb_config.random_dest_flag[I] = 1;
 		tb_config.destination_port[I] = -1;
 	}
 
-	tb_config.active_flag[1] = 1;
-	tb_config.random_dest_flag[1] = 0;
-	tb_config.destination_port[1] = 3;
+	// tb_config.active_flag[1] = 1;
+	// tb_config.random_dest_flag[1] = 0;
+	// tb_config.destination_port[1] = 3;
 
 
 
